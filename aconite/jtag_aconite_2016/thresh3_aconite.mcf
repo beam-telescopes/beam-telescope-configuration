@@ -1,0 +1,9 @@
+#JTAG_MS MASTER CONFIGURATION FILE 01-18-2016
+6 ; number of devices
+C:\user\aconite\jtag\config_files_2016\pos0_chip55_thresh3.txt    ; (0)
+C:\user\aconite\jtag\config_files_2016\pos1_chip66_thresh3.txt    ; (1)
+C:\user\aconite\jtag\config_files_2016\pos2_chip67_thresh3.txt    ; (2)
+C:\user\aconite\jtag\config_files_2016\pos3_chip72_thresh3.txt    ; (3)
+C:\user\aconite\jtag\config_files_2016\pos4_chip62_thresh3.txt    ; (4)
+C:\user\aconite\jtag\config_files_2016\pos5_chip59_thresh3.txt    ; (5)
+#END OF JTAG_MS MASTER CONFIGURATION FILE
