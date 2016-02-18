@@ -1,4 +1,4 @@
-DATURA Telescope Configuration files
+JTAG files for Mimosa26 sensors of DATURA Telescope
 
-These files are to be used with the EUDET-type beam telescope "DATURA" available in the DESY Test Beam Facility, Beamline TB21
-
+Don't not change the values!
+Choose a threshold (mcf-file). Threshold 5 and 6 show the best resolution.
