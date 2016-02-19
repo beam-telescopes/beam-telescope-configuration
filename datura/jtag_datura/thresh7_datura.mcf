@@ -1,0 +1,9 @@
+#JTAG_MS MASTER CONFIGURATION FILE 09-16-2015
+6 ; number of devices
+C:\opt\jtag_datura\pos0_chip73_thresh7.txt    ; (0)
+C:\opt\jtag_datura\pos1_chip74_thresh7.txt    ; (1)
+C:\opt\jtag_datura\pos2_chip75_thresh7.txt    ; (2)
+C:\opt\jtag_datura\pos3_chip76_thresh7.txt    ; (3)
+C:\opt\jtag_datura\pos4_chip77_thresh7.txt    ; (4)
+C:\opt\jtag_datura\pos5_chip79_thresh7.txt    ; (5)
+#END OF JTAG_MS MASTER CONFIGURATION FILE
