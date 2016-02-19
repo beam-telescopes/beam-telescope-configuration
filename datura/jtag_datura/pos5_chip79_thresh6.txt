@@ -33,7 +33,7 @@
 50 ; :BIAS_DAC[5][17]
 120 ; :BIAS_DAC[5][18]
 0 ; :RO_MODE0[5][0]
-0 ; :RO_MODE0[5][1]
+1 ; :RO_MODE0[5][1]
 0 ; :RO_MODE0[5][2]
 0 ; :RO_MODE0[5][3]
 0 ; :RO_MODE0[5][4]
