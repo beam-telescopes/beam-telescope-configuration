@@ -1,9 +1,0 @@
-#JTAG_MS MASTER CONFIGURATION FILE Sun Dec 01 22:12:48 2013
-6 ; number of devices 
-C:\opt\jtag_datura\threshold6\pos0_chip73_thresh6.txt    ; (0)  
-C:\opt\jtag_datura\threshold6\pos1_chip74_thresh6.txt    ; (1)  
-C:\opt\jtag_datura\threshold6\pos2_chip75_thresh6.txt    ; (2)  
-C:\opt\jtag_datura\threshold6\pos3_chip76_thresh6.txt    ; (3)  
-C:\opt\jtag_datura\threshold6\pos4_chip77_thresh6.txt    ; (4)  
-C:\opt\jtag_datura\threshold6\pos5_chip79_thresh6.txt    ; (5)  
-#END OF JTAG_MS MASTER CONFIGURATION FILE
