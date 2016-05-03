@@ -1,0 +1,9 @@
+#JTAG_MS MASTER CONFIGURATION FILE 05-03-2016
+6 ; number of devices
+C:\opt\jtag_aida2020\pos0_chip101_thresh8.txt    ; (0)
+C:\opt\jtag_aida2020\pos1_chip102_thresh8.txt    ; (1)
+C:\opt\jtag_aida2020\pos2_chip103_thresh8.txt    ; (2)
+C:\opt\jtag_aida2020\pos3_chip104_thresh8.txt    ; (3)
+C:\opt\jtag_aida2020\pos4_chip105_thresh8.txt    ; (4)
+C:\opt\jtag_aida2020\pos5_chip106_thresh8.txt    ; (5)
+#END OF JTAG_MS MASTER CONFIGURATION FILE
