@@ -1,10 +1,17 @@
 #!/bin/bash
 
 echo "Script to generate the EUDAQ configuration files for long LED runs"
-echo "usage: source create_from1file.sh -l(--labviewConffolder) LabviewPCConfigurationFolder -v(--v0) V0 -n(--nvoltages) NVoltages -s(--step) dmv_step -r(--readoutcycles) CYCLES -e(--eudaqfolder) EUDAQdatafolder -c(--createDatafolder) y/n"
+echo "usage: source create_from1file.sh"
+echo "  -l(--labviewConffolder) LabviewPCConfigurationFolder"
+echo "  -v(--v0) V0"
+echo "  -n(--nvoltages) NVoltages"
+echo "  -s(--step) dmv_step"
+echo "  -r(--readoutcycles) CYCLES"
+echo "  -e(--eudaqfolder) EUDAQdatafolder"
+echo "  -c(--createDatafolder) y/n"
 echo "requires the existence of:"
-echo "                    a)       the xxLED.conf file, see the end of the script to see how it should look"
-echo "                    b)       the longLED_wind/LED_00.ini file, see the end of the script to see how it should look"
+echo "  a) the xxLED.conf file, see the end of the script to see how it should look"
+echo "  b) the longLED_wind/LED_00.ini file, see the end of the script to see how it should look"
 
 
 
@@ -13,7 +20,7 @@ NV="91"
 V0="3500"
 dmV="50"
 CYCLES="3000"
-EUDAQ_FOLDER="20160729_long"
+EUDAQ_FOLDER="20160731_long"
 MAKE_DIR="y"
 
 echo "  "
@@ -29,31 +36,31 @@ echo "--createDatafolder=${MAKE_DIR}, only for eudaq pc"
 
 for i in "$@"
 do
-case $i in
-    -l=*|--labviewConffolder=*)
-    LABVFolder="${i#*=}"
-    ;;
-    -v=*|--v0=*)
-    V0="${i#*=}"
-    ;;
-    -n=*|--nvoltages=*)
-    NV="${i#*=}"
-    ;;
-    CYCLES-r=*|--readoutcycles=*)
-    dmV="${i#*=}"
-    ;;
-    -s=*|--step=*)
-    ="${i#*=}"
-    ;;
-    -e=*|--eudaqfolder=*)
-    EUDAQ_FOLDER="${i#*=}"
-    ;;
-   -c=*|--createfolder=*)
-    MAKE_DIR="${i#*=}"
-    ;;
-    *)
-    ;;
-esac
+    case $i in
+	-l=*|--labviewConffolder=*)
+	    LABVFolder="${i#*=}"
+	    ;;
+	-v=*|--v0=*)
+	    V0="${i#*=}"
+	    ;;
+	-n=*|--nvoltages=*)
+	    NV="${i#*=}"
+	    ;;
+	CYCLES-r=*|--readoutcycles=*)
+	    dmV="${i#*=}"
+	    ;;
+	-s=*|--step=*)
+	    ="${i#*=}"
+	    ;;
+	-e=*|--eudaqfolder=*)
+	    EUDAQ_FOLDER="${i#*=}"
+	    ;;
+	-c=*|--createfolder=*)
+	    MAKE_DIR="${i#*=}"
+	    ;;
+	*)
+	    ;;
+    esac
 done
 
 echo " "
@@ -118,6 +125,11 @@ COUNTERI=1
 COUNTERJ=2
 LEDV=${V0}
 LEDV2=${V0}
+
+#prepare the first voltage file LED_01.ini
+/bin/cp -f $PWD/LED_00.ini $PWD/test.ini
+sed -i "s/voltage\=0/voltage\=$LEDV2/g" $PWD/test.ini
+/bin/cp -f $PWD/test.ini $PWD/LED_01.ini
 
 while [ $COUNTERI -lt ${NV} ]; 
 do  
