@@ -1,9 +1,0 @@
-#JTAG_MS MASTER CONFIGURATION FILE 09-16-2015
-6 ; number of devices
-.\pos0_chip2b_thresh6_dis.txt    ; (0)
-.\pos1_chip5b_thresh6_dis.txt    ; (1)
-.\pos2_chip1b_thresh6_dis.txt    ; (2)
-.\pos3_chip4b_thresh6_dis.txt    ; (3)
-.\pos4_chip7b_thresh6_dis.txt    ; (4)
-.\pos5_chip3b_thresh6_dis.txt    ; (5)
-#END OF JTAG_MS MASTER CONFIGURATION FILE
