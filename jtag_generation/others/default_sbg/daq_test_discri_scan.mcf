@@ -1,0 +1,5 @@
+#JTAG_MS MASTER CONFIGURATION FILE Mon Mar 23 14:32:26 2009
+1 ; number of devices 
+C:\ccmos_sctrl\MIMOSA26_JTAG\config_files\characterisation\daq_test_discri_scan.TXT    ; (0)  
+#END OF JTAG_MS MASTER CONFIGURATION FILE
+

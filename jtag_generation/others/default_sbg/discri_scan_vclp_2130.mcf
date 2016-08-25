@@ -1,0 +1,4 @@
+#JTAG_MS MASTER CONFIGURATION FILE Wed Apr 21 12:53:30 2010
+1 ; number of devices 
+C:\ccmos_sctrl\MIMOSA26_JTAG\config_files\characterisation\discri_scan_vclp_2130.TXT    ; (0)  
+#END OF JTAG_MS MASTER CONFIGURATION FILE

@@ -1,0 +1,9 @@
+#JTAG_MS MASTER CONFIGURATION FILE Tue Jun 08 15:31:00 2010
+6 ; number of devices 
+C:\ccmos_sctrl\MIMOSA26_JTAG\config_files\characterisation\daq_test_2x80MHz_chip0.TXT    ; (0)
+C:\ccmos_sctrl\MIMOSA26_JTAG\config_files\characterisation\daq_test_2x80MHz_chip1.TXT    ; (1)
+C:\ccmos_sctrl\MIMOSA26_JTAG\config_files\characterisation\daq_test_2x80MHz_chip2.TXT    ; (2)
+C:\ccmos_sctrl\MIMOSA26_JTAG\config_files\characterisation\daq_test_2x80MHz_chip3.TXT    ; (3)
+C:\ccmos_sctrl\MIMOSA26_JTAG\config_files\characterisation\daq_test_2x80MHz_chip4.TXT    ; (4)
+C:\ccmos_sctrl\MIMOSA26_JTAG\config_files\characterisation\daq_test_2x80MHz_chip5.TXT    ; (5)  
+#END OF JTAG_MS MASTER CONFIGURATION FILE

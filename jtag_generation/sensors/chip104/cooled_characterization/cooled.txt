@@ -1,0 +1,91 @@
+Sensor 104
+IVDREF2: 100
+Middlepoint A: 96
+Middlepoint B: 93
+Middlepoint C: 133
+Middlepoint D: 210
+Temporal noise (mean) A: 0.9218
+Temporal noise (mean) B: 0.9174
+Temporal noise (mean) C: 0.9198
+Temporal noise (mean) D: 0.8795
+Fixed Pattern noise (sigma) A: 0.4218
+Fixed Pattern noise (sigma) B: 0.4968
+Fixed Pattern noise (sigma) C: 0.5925
+Fixed Pattern noise (sigma) D: 0.3315
+Offset (FPN mean) A: -0.1824
+Offset (FPN mean) B: -0.09504
+Offset (FPN mean) C: 0.01011
+Offset (FPN mean) D: 0.1782
+Columns to diable: [693]
+
+Total noise average of sensor 104 --> 1.02275414763
+
+Write file: chip104_thresh3.txt
+DAC_matA[3] 107 , Delta Middlepoints: 11
+DAC_matB[3] 105 , Delta Middlepoints: 12
+DAC_matC[3] 146 , Delta Middlepoints: 13
+DAC_matD[3] 222 , Delta Middlepoints: 12
+Disabling column: 693
+
+Write file: chip104_thresh4.txt
+DAC_matA[4] 111 , Delta Middlepoints: 15
+DAC_matB[4] 109 , Delta Middlepoints: 16
+DAC_matC[4] 151 , Delta Middlepoints: 18
+DAC_matD[4] 226 , Delta Middlepoints: 16
+Disabling column: 693
+
+Write file: chip104_thresh5.txt
+DAC_matA[5] 116 , Delta Middlepoints: 20
+DAC_matB[5] 113 , Delta Middlepoints: 20
+DAC_matC[5] 155 , Delta Middlepoints: 22
+DAC_matD[5] 230 , Delta Middlepoints: 20
+Disabling column: 693
+
+Write file: chip104_thresh6.txt
+DAC_matA[6] 120 , Delta Middlepoints: 24
+DAC_matB[6] 118 , Delta Middlepoints: 25
+DAC_matC[6] 159 , Delta Middlepoints: 26
+DAC_matD[6] 233 , Delta Middlepoints: 23
+Disabling column: 693
+
+Write file: chip104_thresh7.txt
+DAC_matA[7] 124 , Delta Middlepoints: 28
+DAC_matB[7] 122 , Delta Middlepoints: 29
+DAC_matC[7] 164 , Delta Middlepoints: 31
+DAC_matD[7] 237 , Delta Middlepoints: 27
+Disabling column: 693
+
+Write file: chip104_thresh8.txt
+DAC_matA[8] 128 , Delta Middlepoints: 32
+DAC_matB[8] 126 , Delta Middlepoints: 33
+DAC_matC[8] 168 , Delta Middlepoints: 35
+DAC_matD[8] 241 , Delta Middlepoints: 31
+Disabling column: 693
+
+Write file: chip104_thresh9.txt
+DAC_matA[9] 132 , Delta Middlepoints: 36
+DAC_matB[9] 130 , Delta Middlepoints: 37
+DAC_matC[9] 172 , Delta Middlepoints: 39
+DAC_matD[9] 245 , Delta Middlepoints: 35
+Disabling column: 693
+
+Write file: chip104_thresh10.txt
+DAC_matA[10] 136 , Delta Middlepoints: 40
+DAC_matB[10] 134 , Delta Middlepoints: 41
+DAC_matC[10] 177 , Delta Middlepoints: 44
+DAC_matD[10] 248 , Delta Middlepoints: 38
+Disabling column: 693
+
+Write file: chip104_thresh11.txt
+DAC_matA[11] 140 , Delta Middlepoints: 44
+DAC_matB[11] 139 , Delta Middlepoints: 46
+DAC_matC[11] 181 , Delta Middlepoints: 48
+DAC_matD[11] 252 , Delta Middlepoints: 42
+Disabling column: 693
+
+Write file: chip104_thresh12.txt
+DAC_matA[12] 144 , Delta Middlepoints: 48
+DAC_matB[12] 143 , Delta Middlepoints: 50
+DAC_matC[12] 186 , Delta Middlepoints: 53
+DAC_matD[12] 255 , Delta Middlepoints: 45
+Disabling column: 693
