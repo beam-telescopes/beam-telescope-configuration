@@ -1,0 +1,9 @@
+#JTAG_MS MASTER CONFIGURATION FILE 08-25-2016
+6 ; number of devices
+C:\opt\jtag_azalea\pos0_chip101_thresh4.txt    ; (0)
+C:\opt\jtag_azalea\pos1_chip102_thresh4.txt    ; (1)
+C:\opt\jtag_azalea\pos2_chip103_thresh4.txt    ; (2)
+C:\opt\jtag_azalea\pos3_chip104_thresh4.txt    ; (3)
+C:\opt\jtag_azalea\pos4_chip105_thresh4.txt    ; (4)
+C:\opt\jtag_azalea\pos5_chip106_thresh4.txt    ; (5)
+#END OF JTAG_MS MASTER CONFIGURATION FILE

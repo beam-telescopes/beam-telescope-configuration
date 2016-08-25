@@ -1,0 +1,27 @@
+Mimosa26 for AIDA2020
+---------------------
+jde, 3rd May 2016
+
+
+No columns were disabled.
+Total noise average of sensor 101 --> 1.06790094978 
+
+No columns were disabled.
+Total noise average of sensor 102 --> 1.06810047092
+
+No columns were disabled.
+Total noise average of sensor 103 --> 1.06707365664
+
+Disabling column: 693
+Total noise average of sensor 104 --> 1.05470279807
+(Threshold 12 is not resolved for Matrix D)
+
+No columns were disabled.
+Total noise average of sensor 105 --> 0.980918919268
+
+No columns were disabled.
+Total noise average of sensor 106 --> 1.0844862521
+
+No columns were disabled, but ONE ROW broken/hot.
+Total noise average of sensor 107 --> 1.01995738338
+
