@@ -3,7 +3,7 @@
 # which telescope
 TELESCOPE='azalea'
 # which sensors, at which positions
-declare -a array=("chip101" "chip102" "chip103" "chip104" "chip105" "chip106")
+declare -a array=("chip101" "chip102" "chip103" "chip6b" "chip105" "chip69")
 
 ###########################################
 TELESCOPE_PATH=$PWD
