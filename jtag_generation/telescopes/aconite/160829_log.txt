@@ -1,0 +1,662 @@
+aconite plane 0 : chip55
+Sensor 55
+Input folder former2015/
+Input file name chip55_thresh
+Columns to diable: [1014 1015 1016]
+
+former2015/chip55_thresh3.txt
+IVDREF2: 101
+IVDREF1A: 155
+IVDREF1B: 116
+IVDREF1C: 162
+IVDREF1D: 75
+Write file: chip55_thresh3.txt
+Disabling column: 1014
+Disabling column: 1015
+Disabling column: 1016
+
+former2015/chip55_thresh4.txt
+IVDREF2: 101
+IVDREF1A: 159
+IVDREF1B: 120
+IVDREF1C: 166
+IVDREF1D: 79
+Write file: chip55_thresh4.txt
+Disabling column: 1014
+Disabling column: 1015
+Disabling column: 1016
+
+former2015/chip55_thresh5.txt
+IVDREF2: 101
+IVDREF1A: 164
+IVDREF1B: 124
+IVDREF1C: 171
+IVDREF1D: 83
+Write file: chip55_thresh5.txt
+Disabling column: 1014
+Disabling column: 1015
+Disabling column: 1016
+
+former2015/chip55_thresh6.txt
+IVDREF2: 101
+IVDREF1A: 168
+IVDREF1B: 128
+IVDREF1C: 175
+IVDREF1D: 87
+Write file: chip55_thresh6.txt
+Disabling column: 1014
+Disabling column: 1015
+Disabling column: 1016
+
+former2015/chip55_thresh7.txt
+IVDREF2: 101
+IVDREF1A: 172
+IVDREF1B: 133
+IVDREF1C: 179
+IVDREF1D: 91
+Write file: chip55_thresh7.txt
+Disabling column: 1014
+Disabling column: 1015
+Disabling column: 1016
+
+former2015/chip55_thresh8.txt
+IVDREF2: 101
+IVDREF1A: 176
+IVDREF1B: 137
+IVDREF1C: 183
+IVDREF1D: 95
+Write file: chip55_thresh8.txt
+Disabling column: 1014
+Disabling column: 1015
+Disabling column: 1016
+
+former2015/chip55_thresh9.txt
+IVDREF2: 101
+IVDREF1A: 180
+IVDREF1B: 141
+IVDREF1C: 188
+IVDREF1D: 99
+Write file: chip55_thresh9.txt
+Disabling column: 1014
+Disabling column: 1015
+Disabling column: 1016
+
+former2015/chip55_thresh10.txt
+IVDREF2: 101
+IVDREF1A: 184
+IVDREF1B: 145
+IVDREF1C: 192
+IVDREF1D: 103
+Write file: chip55_thresh10.txt
+Disabling column: 1014
+Disabling column: 1015
+Disabling column: 1016
+
+former2015/chip55_thresh11.txt
+IVDREF2: 101
+IVDREF1A: 189
+IVDREF1B: 149
+IVDREF1C: 196
+IVDREF1D: 107
+Write file: chip55_thresh11.txt
+Disabling column: 1014
+Disabling column: 1015
+Disabling column: 1016
+
+former2015/chip55_thresh12.txt
+IVDREF2: 101
+IVDREF1A: 193
+IVDREF1B: 153
+IVDREF1C: 201
+IVDREF1D: 111
+Write file: chip55_thresh12.txt
+Disabling column: 1014
+Disabling column: 1015
+Disabling column: 1016
+Write file: pos0_chip55_thresh10.txt
+Write file: pos0_chip55_thresh11.txt
+Write file: pos0_chip55_thresh12.txt
+Write file: pos0_chip55_thresh3.txt
+Write file: pos0_chip55_thresh4.txt
+Write file: pos0_chip55_thresh5.txt
+Write file: pos0_chip55_thresh6.txt
+Write file: pos0_chip55_thresh7.txt
+Write file: pos0_chip55_thresh8.txt
+Write file: pos0_chip55_thresh9.txt
+aconite plane 1 : chip66
+Sensor 66
+Input folder former2015/
+Input file name chip66_thresh
+Columns to diable: []
+
+former2015/chip66_thresh3.txt
+IVDREF2: 98
+IVDREF1A: 219
+IVDREF1B: 171
+IVDREF1C: 134
+IVDREF1D: 118
+Write file: chip66_thresh3.txt
+No columns were disabled.
+
+former2015/chip66_thresh4.txt
+IVDREF2: 98
+IVDREF1A: 223
+IVDREF1B: 175
+IVDREF1C: 137
+IVDREF1D: 121
+Write file: chip66_thresh4.txt
+No columns were disabled.
+
+former2015/chip66_thresh5.txt
+IVDREF2: 98
+IVDREF1A: 228
+IVDREF1B: 179
+IVDREF1C: 141
+IVDREF1D: 125
+Write file: chip66_thresh5.txt
+No columns were disabled.
+
+former2015/chip66_thresh6.txt
+IVDREF2: 98
+IVDREF1A: 232
+IVDREF1B: 182
+IVDREF1C: 145
+IVDREF1D: 129
+Write file: chip66_thresh6.txt
+No columns were disabled.
+
+former2015/chip66_thresh7.txt
+IVDREF2: 98
+IVDREF1A: 236
+IVDREF1B: 186
+IVDREF1C: 149
+IVDREF1D: 132
+Write file: chip66_thresh7.txt
+No columns were disabled.
+
+former2015/chip66_thresh8.txt
+IVDREF2: 98
+IVDREF1A: 240
+IVDREF1B: 190
+IVDREF1C: 153
+IVDREF1D: 136
+Write file: chip66_thresh8.txt
+No columns were disabled.
+
+former2015/chip66_thresh9.txt
+IVDREF2: 98
+IVDREF1A: 244
+IVDREF1B: 194
+IVDREF1C: 157
+IVDREF1D: 140
+Write file: chip66_thresh9.txt
+No columns were disabled.
+
+former2015/chip66_thresh10.txt
+IVDREF2: 98
+IVDREF1A: 248
+IVDREF1B: 197
+IVDREF1C: 161
+IVDREF1D: 144
+Write file: chip66_thresh10.txt
+No columns were disabled.
+
+former2015/chip66_thresh11.txt
+IVDREF2: 98
+IVDREF1A: 253
+IVDREF1B: 201
+IVDREF1C: 165
+IVDREF1D: 147
+Write file: chip66_thresh11.txt
+No columns were disabled.
+
+former2015/chip66_thresh12.txt
+IVDREF2: 98
+IVDREF1A: 255
+IVDREF1B: 205
+IVDREF1C: 169
+IVDREF1D: 151
+Write file: chip66_thresh12.txt
+No columns were disabled.
+Write file: pos1_chip66_thresh10.txt
+Write file: pos1_chip66_thresh11.txt
+Write file: pos1_chip66_thresh12.txt
+Write file: pos1_chip66_thresh3.txt
+Write file: pos1_chip66_thresh4.txt
+Write file: pos1_chip66_thresh5.txt
+Write file: pos1_chip66_thresh6.txt
+Write file: pos1_chip66_thresh7.txt
+Write file: pos1_chip66_thresh8.txt
+Write file: pos1_chip66_thresh9.txt
+aconite plane 2 : chip81
+Sensor 81
+Input folder former2015/
+Input file name chip81_thresh
+Columns to diable: []
+
+former2015/chip81_thresh3.txt
+IVDREF2: 98
+IVDREF1A: 141
+IVDREF1B: 167
+IVDREF1C: 149
+IVDREF1D: 161
+Write file: chip81_thresh3.txt
+No columns were disabled.
+
+former2015/chip81_thresh4.txt
+IVDREF2: 98
+IVDREF1A: 145
+IVDREF1B: 171
+IVDREF1C: 155
+IVDREF1D: 167
+Write file: chip81_thresh4.txt
+No columns were disabled.
+
+former2015/chip81_thresh5.txt
+IVDREF2: 98
+IVDREF1A: 149
+IVDREF1B: 176
+IVDREF1C: 160
+IVDREF1D: 172
+Write file: chip81_thresh5.txt
+No columns were disabled.
+
+former2015/chip81_thresh6.txt
+IVDREF2: 98
+IVDREF1A: 153
+IVDREF1B: 181
+IVDREF1C: 166
+IVDREF1D: 178
+Write file: chip81_thresh6.txt
+No columns were disabled.
+
+former2015/chip81_thresh7.txt
+IVDREF2: 98
+IVDREF1A: 158
+IVDREF1B: 185
+IVDREF1C: 171
+IVDREF1D: 183
+Write file: chip81_thresh7.txt
+No columns were disabled.
+
+former2015/chip81_thresh8.txt
+IVDREF2: 98
+IVDREF1A: 162
+IVDREF1B: 190
+IVDREF1C: 177
+IVDREF1D: 188
+Write file: chip81_thresh8.txt
+No columns were disabled.
+
+former2015/chip81_thresh9.txt
+IVDREF2: 98
+IVDREF1A: 166
+IVDREF1B: 195
+IVDREF1C: 182
+IVDREF1D: 194
+Write file: chip81_thresh9.txt
+No columns were disabled.
+
+former2015/chip81_thresh10.txt
+IVDREF2: 98
+IVDREF1A: 170
+IVDREF1B: 199
+IVDREF1C: 188
+IVDREF1D: 199
+Write file: chip81_thresh10.txt
+No columns were disabled.
+
+former2015/chip81_thresh11.txt
+IVDREF2: 98
+IVDREF1A: 175
+IVDREF1B: 204
+IVDREF1C: 193
+IVDREF1D: 205
+Write file: chip81_thresh11.txt
+No columns were disabled.
+
+former2015/chip81_thresh12.txt
+IVDREF2: 98
+IVDREF1A: 179
+IVDREF1B: 208
+IVDREF1C: 199
+IVDREF1D: 210
+Write file: chip81_thresh12.txt
+No columns were disabled.
+Write file: pos2_chip81_thresh10.txt
+Write file: pos2_chip81_thresh11.txt
+Write file: pos2_chip81_thresh12.txt
+Write file: pos2_chip81_thresh3.txt
+Write file: pos2_chip81_thresh4.txt
+Write file: pos2_chip81_thresh5.txt
+Write file: pos2_chip81_thresh6.txt
+Write file: pos2_chip81_thresh7.txt
+Write file: pos2_chip81_thresh8.txt
+Write file: pos2_chip81_thresh9.txt
+aconite plane 3 : chip68
+Sensor 68
+IVDREF2: 100
+Middlepoint A: 208
+Middlepoint B: 160
+Middlepoint C: 119
+Middlepoint D: 163
+Temporal noise (mean) A: 1.053
+Temporal noise (mean) B: 1.016
+Temporal noise (mean) C: 1.055
+Temporal noise (mean) D: 0.9633
+Fixed Pattern noise (sigma) A: 0.3524
+Fixed Pattern noise (sigma) B: 0.3566
+Fixed Pattern noise (sigma) C: 0.6797
+Fixed Pattern noise (sigma) D: 0.5559
+Offset (FPN mean) A: 0.3375
+Offset (FPN mean) B: 0.5
+Offset (FPN mean) C: 0.3816
+Offset (FPN mean) D: 0.5665
+Columns to diable: []
+
+Total noise average of sensor 68 --> 1.13858889506
+
+Write file: chip68_thresh3.txt
+DAC_matA[3] 223 , Delta Middlepoints: 15
+DAC_matB[3] 175 , Delta Middlepoints: 15
+DAC_matC[3] 136 , Delta Middlepoints: 17
+DAC_matD[3] 179 , Delta Middlepoints: 16
+No columns were disabled.
+
+Write file: chip68_thresh4.txt
+DAC_matA[4] 227 , Delta Middlepoints: 19
+DAC_matB[4] 179 , Delta Middlepoints: 19
+DAC_matC[4] 141 , Delta Middlepoints: 22
+DAC_matD[4] 183 , Delta Middlepoints: 20
+No columns were disabled.
+
+Write file: chip68_thresh5.txt
+DAC_matA[5] 232 , Delta Middlepoints: 24
+DAC_matB[5] 184 , Delta Middlepoints: 24
+DAC_matC[5] 146 , Delta Middlepoints: 27
+DAC_matD[5] 188 , Delta Middlepoints: 25
+No columns were disabled.
+
+Write file: chip68_thresh6.txt
+DAC_matA[6] 236 , Delta Middlepoints: 28
+DAC_matB[6] 188 , Delta Middlepoints: 28
+DAC_matC[6] 151 , Delta Middlepoints: 32
+DAC_matD[6] 192 , Delta Middlepoints: 29
+No columns were disabled.
+
+Write file: chip68_thresh7.txt
+DAC_matA[7] 240 , Delta Middlepoints: 32
+DAC_matB[7] 192 , Delta Middlepoints: 32
+DAC_matC[7] 156 , Delta Middlepoints: 37
+DAC_matD[7] 196 , Delta Middlepoints: 33
+No columns were disabled.
+
+Write file: chip68_thresh8.txt
+DAC_matA[8] 245 , Delta Middlepoints: 37
+DAC_matB[8] 196 , Delta Middlepoints: 36
+DAC_matC[8] 161 , Delta Middlepoints: 42
+DAC_matD[8] 201 , Delta Middlepoints: 38
+No columns were disabled.
+
+Write file: chip68_thresh9.txt
+DAC_matA[9] 249 , Delta Middlepoints: 41
+DAC_matB[9] 201 , Delta Middlepoints: 41
+DAC_matC[9] 166 , Delta Middlepoints: 47
+DAC_matD[9] 205 , Delta Middlepoints: 42
+No columns were disabled.
+
+Write file: chip68_thresh10.txt
+DAC_matA[10] 254 , Delta Middlepoints: 46
+DAC_matB[10] 205 , Delta Middlepoints: 45
+DAC_matC[10] 171 , Delta Middlepoints: 52
+DAC_matD[10] 210 , Delta Middlepoints: 47
+No columns were disabled.
+
+Write file: chip68_thresh11.txt
+DAC_matA[11] 255 , Delta Middlepoints: 47
+DAC_matB[11] 209 , Delta Middlepoints: 49
+DAC_matC[11] 176 , Delta Middlepoints: 57
+DAC_matD[11] 214 , Delta Middlepoints: 51
+No columns were disabled.
+
+Write file: chip68_thresh12.txt
+DAC_matA[12] 255 , Delta Middlepoints: 47
+DAC_matB[12] 214 , Delta Middlepoints: 54
+DAC_matC[12] 181 , Delta Middlepoints: 62
+DAC_matD[12] 219 , Delta Middlepoints: 56
+No columns were disabled.
+Write file: pos3_chip68_thresh10.txt
+Write file: pos3_chip68_thresh11.txt
+Write file: pos3_chip68_thresh12.txt
+Write file: pos3_chip68_thresh3.txt
+Write file: pos3_chip68_thresh4.txt
+Write file: pos3_chip68_thresh5.txt
+Write file: pos3_chip68_thresh6.txt
+Write file: pos3_chip68_thresh7.txt
+Write file: pos3_chip68_thresh8.txt
+Write file: pos3_chip68_thresh9.txt
+aconite plane 4 : chip62
+Sensor 62
+IVDREF2: 100
+Middlepoint A: 117
+Middlepoint B: 143
+Middlepoint C: 175
+Middlepoint D: 127
+Temporal noise (mean) A: 0.9896
+Temporal noise (mean) B: 0.9135
+Temporal noise (mean) C: 0.9652
+Temporal noise (mean) D: 0.9183
+Fixed Pattern noise (sigma) A: 0.3488
+Fixed Pattern noise (sigma) B: 0.3527
+Fixed Pattern noise (sigma) C: 0.5697
+Fixed Pattern noise (sigma) D: 0.511
+Offset (FPN mean) A: -0.1569
+Offset (FPN mean) B: 0.003
+Offset (FPN mean) C: -0.1777
+Offset (FPN mean) D: 0.1453
+Columns to diable: [843]
+
+Total noise average of sensor 62 --> 1.05004671543
+
+Write file: chip62_thresh3.txt
+DAC_matA[3] 129 , Delta Middlepoints: 12
+DAC_matB[3] 155 , Delta Middlepoints: 12
+DAC_matC[3] 188 , Delta Middlepoints: 13
+DAC_matD[3] 140 , Delta Middlepoints: 13
+Disabling column: 843
+
+Write file: chip62_thresh4.txt
+DAC_matA[4] 133 , Delta Middlepoints: 16
+DAC_matB[4] 159 , Delta Middlepoints: 16
+DAC_matC[4] 192 , Delta Middlepoints: 17
+DAC_matD[4] 144 , Delta Middlepoints: 17
+Disabling column: 843
+
+Write file: chip62_thresh5.txt
+DAC_matA[5] 137 , Delta Middlepoints: 20
+DAC_matB[5] 163 , Delta Middlepoints: 20
+DAC_matC[5] 197 , Delta Middlepoints: 22
+DAC_matD[5] 149 , Delta Middlepoints: 22
+Disabling column: 843
+
+Write file: chip62_thresh6.txt
+DAC_matA[6] 142 , Delta Middlepoints: 25
+DAC_matB[6] 167 , Delta Middlepoints: 24
+DAC_matC[6] 201 , Delta Middlepoints: 26
+DAC_matD[6] 153 , Delta Middlepoints: 26
+Disabling column: 843
+
+Write file: chip62_thresh7.txt
+DAC_matA[7] 146 , Delta Middlepoints: 29
+DAC_matB[7] 170 , Delta Middlepoints: 27
+DAC_matC[7] 206 , Delta Middlepoints: 31
+DAC_matD[7] 157 , Delta Middlepoints: 30
+Disabling column: 843
+
+Write file: chip62_thresh8.txt
+DAC_matA[8] 150 , Delta Middlepoints: 33
+DAC_matB[8] 174 , Delta Middlepoints: 31
+DAC_matC[8] 210 , Delta Middlepoints: 35
+DAC_matD[8] 161 , Delta Middlepoints: 34
+Disabling column: 843
+
+Write file: chip62_thresh9.txt
+DAC_matA[9] 154 , Delta Middlepoints: 37
+DAC_matB[9] 178 , Delta Middlepoints: 35
+DAC_matC[9] 215 , Delta Middlepoints: 40
+DAC_matD[9] 165 , Delta Middlepoints: 38
+Disabling column: 843
+
+Write file: chip62_thresh10.txt
+DAC_matA[10] 158 , Delta Middlepoints: 41
+DAC_matB[10] 182 , Delta Middlepoints: 39
+DAC_matC[10] 219 , Delta Middlepoints: 44
+DAC_matD[10] 170 , Delta Middlepoints: 43
+Disabling column: 843
+
+Write file: chip62_thresh11.txt
+DAC_matA[11] 163 , Delta Middlepoints: 46
+DAC_matB[11] 186 , Delta Middlepoints: 43
+DAC_matC[11] 224 , Delta Middlepoints: 49
+DAC_matD[11] 174 , Delta Middlepoints: 47
+Disabling column: 843
+
+Write file: chip62_thresh12.txt
+DAC_matA[12] 167 , Delta Middlepoints: 50
+DAC_matB[12] 190 , Delta Middlepoints: 47
+DAC_matC[12] 228 , Delta Middlepoints: 53
+DAC_matD[12] 178 , Delta Middlepoints: 51
+Disabling column: 843
+Write file: pos4_chip62_thresh10.txt
+Write file: pos4_chip62_thresh11.txt
+Write file: pos4_chip62_thresh12.txt
+Write file: pos4_chip62_thresh3.txt
+Write file: pos4_chip62_thresh4.txt
+Write file: pos4_chip62_thresh5.txt
+Write file: pos4_chip62_thresh6.txt
+Write file: pos4_chip62_thresh7.txt
+Write file: pos4_chip62_thresh8.txt
+Write file: pos4_chip62_thresh9.txt
+aconite plane 5 : chip57
+Sensor 57
+IVDREF2: 100
+Middlepoint A: 146
+Middlepoint B: 155
+Middlepoint C: 211
+Middlepoint D: 120
+Temporal noise (mean) A: 1.021
+Temporal noise (mean) B: 0.9632
+Temporal noise (mean) C: 1.063
+Temporal noise (mean) D: 0.973
+Fixed Pattern noise (sigma) A: 0.7374
+Fixed Pattern noise (sigma) B: 0.7343
+Fixed Pattern noise (sigma) C: 0.8233
+Fixed Pattern noise (sigma) D: 0.9442
+Offset (FPN mean) A: -0.1049
+Offset (FPN mean) B: -0.0658
+Offset (FPN mean) C: -0.346
+Offset (FPN mean) D: -0.0825
+Columns to diable: []
+
+Total noise average of sensor 57 --> 1.29274530711
+
+Write file: chip57_thresh3.txt
+DAC_matA[3] 161 , Delta Middlepoints: 15
+DAC_matB[3] 169 , Delta Middlepoints: 14
+DAC_matC[3] 226 , Delta Middlepoints: 15
+DAC_matD[3] 136 , Delta Middlepoints: 16
+No columns were disabled.
+
+Write file: chip57_thresh4.txt
+DAC_matA[4] 166 , Delta Middlepoints: 20
+DAC_matB[4] 174 , Delta Middlepoints: 19
+DAC_matC[4] 231 , Delta Middlepoints: 20
+DAC_matD[4] 141 , Delta Middlepoints: 21
+No columns were disabled.
+
+Write file: chip57_thresh5.txt
+DAC_matA[5] 171 , Delta Middlepoints: 25
+DAC_matB[5] 179 , Delta Middlepoints: 24
+DAC_matC[5] 237 , Delta Middlepoints: 26
+DAC_matD[5] 147 , Delta Middlepoints: 27
+No columns were disabled.
+
+Write file: chip57_thresh6.txt
+DAC_matA[6] 176 , Delta Middlepoints: 30
+DAC_matB[6] 184 , Delta Middlepoints: 29
+DAC_matC[6] 242 , Delta Middlepoints: 31
+DAC_matD[6] 152 , Delta Middlepoints: 32
+No columns were disabled.
+
+Write file: chip57_thresh7.txt
+DAC_matA[7] 181 , Delta Middlepoints: 35
+DAC_matB[7] 189 , Delta Middlepoints: 34
+DAC_matC[7] 247 , Delta Middlepoints: 36
+DAC_matD[7] 158 , Delta Middlepoints: 38
+No columns were disabled.
+
+Write file: chip57_thresh8.txt
+DAC_matA[8] 186 , Delta Middlepoints: 40
+DAC_matB[8] 193 , Delta Middlepoints: 38
+DAC_matC[8] 253 , Delta Middlepoints: 42
+DAC_matD[8] 163 , Delta Middlepoints: 43
+No columns were disabled.
+
+Write file: chip57_thresh9.txt
+DAC_matA[9] 191 , Delta Middlepoints: 45
+DAC_matB[9] 198 , Delta Middlepoints: 43
+DAC_matC[9] 255 , Delta Middlepoints: 44
+DAC_matD[9] 168 , Delta Middlepoints: 48
+No columns were disabled.
+
+Write file: chip57_thresh10.txt
+DAC_matA[10] 196 , Delta Middlepoints: 50
+DAC_matB[10] 203 , Delta Middlepoints: 48
+DAC_matC[10] 255 , Delta Middlepoints: 44
+DAC_matD[10] 174 , Delta Middlepoints: 54
+No columns were disabled.
+
+Write file: chip57_thresh11.txt
+DAC_matA[11] 201 , Delta Middlepoints: 55
+DAC_matB[11] 208 , Delta Middlepoints: 53
+DAC_matC[11] 255 , Delta Middlepoints: 44
+DAC_matD[11] 179 , Delta Middlepoints: 59
+No columns were disabled.
+
+Write file: chip57_thresh12.txt
+DAC_matA[12] 206 , Delta Middlepoints: 60
+DAC_matB[12] 213 , Delta Middlepoints: 58
+DAC_matC[12] 255 , Delta Middlepoints: 44
+DAC_matD[12] 185 , Delta Middlepoints: 65
+No columns were disabled.
+Write file: pos5_chip57_thresh10.txt
+Write file: pos5_chip57_thresh11.txt
+Write file: pos5_chip57_thresh12.txt
+Write file: pos5_chip57_thresh3.txt
+Write file: pos5_chip57_thresh4.txt
+Write file: pos5_chip57_thresh5.txt
+Write file: pos5_chip57_thresh6.txt
+Write file: pos5_chip57_thresh7.txt
+Write file: pos5_chip57_thresh8.txt
+Write file: pos5_chip57_thresh9.txt
+/opt/eudaq-configuration/jtag_generation/telescopes/aconite/../../
+./jtag_aconite/thresh3_aconite.mcf
+
+./jtag_aconite/thresh4_aconite.mcf
+
+./jtag_aconite/thresh5_aconite.mcf
+
+./jtag_aconite/thresh6_aconite.mcf
+
+./jtag_aconite/thresh7_aconite.mcf
+
+./jtag_aconite/thresh8_aconite.mcf
+
+./jtag_aconite/thresh9_aconite.mcf
+
+./jtag_aconite/thresh10_aconite.mcf
+
+./jtag_aconite/thresh11_aconite.mcf
+
+./jtag_aconite/thresh12_aconite.mcf
+

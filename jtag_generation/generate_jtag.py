@@ -32,7 +32,7 @@ class Jtag:
         self.OFF_matC = OFF_matC
         self.OFF_matD = OFF_matD
         self.DIS_col = np.array(DIS_col)
-        self.input_file = "default_jtag.txt" 
+        self.default_file = "default_jtag.txt" 
         self.DAC_slope = 0.25
 
     def values(self):
@@ -119,7 +119,7 @@ class Jtag:
           print "\nWrite file:",  output_file
           file_path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))) 
           # IVDREF2
-          with open(file_path + "/" + self.input_file, "r") as sources:
+          with open(file_path + "/" + self.default_file, "r") as sources:
               lines = sources.readlines()
           with open(output_file, "w") as sources:
               for line in lines:
@@ -178,3 +178,138 @@ class Jtag:
                       sources.write(re.sub(r'^0 \; \:DIS\_DISCRI\[0\]\[{}\]'.format(nn), '1 ; :DIS_DISCRI[0][' + str(nn) + ']', line))
 
 
+# if JTAG files exist but no calibration values, use this method
+
+class Jtag_update:
+    def __init__(self, sensor_name, input_folder, input_file_name, DIS_col):
+        self.sensor_name = sensor_name
+        self.input_folder = input_folder
+        self.input_file_name = input_file_name
+        self.DIS_col = np.array(DIS_col)
+        self.default_file = "default_jtag.txt" 
+
+    def values(self):
+        print "Sensor", self.sensor_name
+        print "Input folder", self.input_folder
+        print "Input file name", self.input_file_name
+        # Disabled columns
+        print "Columns to diable:", self.DIS_col
+
+    def generate(self, thr_min, thr_max):
+        # thresholds to produce
+        SN = np.arange(thr_min, thr_max+1)
+        # variables for DAC value
+        IVDREF2  = 0
+        IVDREF1A = 0
+        IVDREF1B = 0
+        IVDREF1C = 0
+        IVDREF1D = 0
+
+        ###########
+        for i, n in enumerate(SN):
+
+          # get former DAC values
+          input_file = self.input_folder + self.input_file_name + str(n) + ".txt"
+          print "\n", input_file
+          with open(input_file, "r") as source:
+              lines = source.readlines()
+          for line in lines:
+              # IVDREF2
+              match = re.search(r'^(.*?) ; :BIAS_DAC\[.\]\[14\]', line)
+              if match: 
+                  IVDREF2 = match.groups()[0]
+              # IVDREF1A
+              match = re.search(r'^(.*?) ; :BIAS_DAC\[.\]\[13\]', line)
+              if match: 
+                  IVDREF1A = match.groups()[0]
+              # IVDREF1B
+              match = re.search(r'^(.*?) ; :BIAS_DAC\[.\]\[12\]', line)
+              if match: 
+                  IVDREF1B = match.groups()[0]
+              # IVDREF1C
+              match = re.search(r'^(.*?) ; :BIAS_DAC\[.\]\[11\]', line)
+              if match: 
+                  IVDREF1C = match.groups()[0]
+              # IVDREF1D
+              match = re.search(r'^(.*?) ; :BIAS_DAC\[.\]\[10\]', line)
+              if match: 
+                  IVDREF1D = match.groups()[0]
+          ## summary
+          print "IVDREF2:", IVDREF2
+          print "IVDREF1A:", IVDREF1A
+          print "IVDREF1B:", IVDREF1B
+          print "IVDREF1C:", IVDREF1C
+          print "IVDREF1D:", IVDREF1D
+
+        #exit()
+        #####
+        # Adjust DAC values
+        # -----------------
+
+        # e.g. DAC-vlaues (XXX) of plane 0
+        # line 26: XXX ; :BIAS_DAC[0][10] --> IVDREF1D
+        # line 27: XXX ; :BIAS_DAC[0][11] --> IVDREF1C
+        # line 28: XXX ; :BIAS_DAC[0][12] --> IVDREF1B
+        # line 29: XXX ; :BIAS_DAC[0][13] --> IVDREF1A
+        # line 30: XXX ; :BIAS_DAC[0][14] --> IVDREF2
+
+        #for i, n in enumerate(SN):
+          #print i, n
+
+          output_file = "chip" + str(self.sensor_name) + "_thresh" + str(SN[i]) + ".txt" 
+          print "Write file:",  output_file
+
+          file_path = os.path.dirname(os.path.abspath(inspect.getfile(inspect.currentframe()))) 
+          # IVDREF2
+          with open(file_path + "/" + self.default_file, "r") as sources:
+              lines = sources.readlines()
+          with open(output_file, "w") as sources:
+              for line in lines:
+                  sources.write(re.sub(r'^(.*?)BIAS_DAC\[.\]\[14\]', str(IVDREF2) + ' ; :BIAS_DAC[0][14]', line))
+
+          # IVDREF1A
+          with open(output_file, "r") as sources:
+              lines = sources.readlines()
+          with open(output_file, "w") as sources:
+              for line in lines:
+                  sources.write(re.sub(r'^(.*?)BIAS_DAC\[.\]\[13\]', str(IVDREF1A) + ' ; :BIAS_DAC[0][13]', line))
+
+          # IVDREF1B
+          with open(output_file, "r") as sources:
+              lines = sources.readlines()
+          with open(output_file, "w") as sources:
+              for line in lines:
+                  sources.write(re.sub(r'^(.*?)BIAS_DAC\[.\]\[12\]', str(IVDREF1B) + ' ; :BIAS_DAC[0][12]', line))
+
+          # IVDREF1C
+          with open(output_file, "r") as sources:
+              lines = sources.readlines()
+          with open(output_file, "w") as sources:
+              for line in lines:
+                  sources.write(re.sub(r'^(.*?)BIAS_DAC\[.\]\[11\]', str(IVDREF1C) + ' ; :BIAS_DAC[0][11]', line))
+
+          # IVDREF1D
+          with open(output_file, "r") as sources:
+              lines = sources.readlines()
+          with open(output_file, "w") as sources:
+              for line in lines:
+                  sources.write(re.sub(r'^(.*?)BIAS_DAC\[.\]\[10\]', str(IVDREF1D) + ' ; :BIAS_DAC[0][10]', line))
+
+          # date and time
+          with open(output_file, "r") as sources:
+              lines = sources.readlines()
+          with open(output_file, "w") as sources:
+              for line in lines:
+                  sources.write(re.sub(r'^\#JTAG\_MS(.*?)$', '#JTAG_MS ' + time.strftime("%c"), line))
+
+          # Disabling columns
+          if not len(self.DIS_col):
+            print "No columns were disabled."
+          else:
+            for ii, nn in enumerate(self.DIS_col):
+              print "Disabling column:", nn
+              with open(output_file, "r") as sources:
+                  lines = sources.readlines()
+              with open(output_file, "w") as sources:
+                  for line in lines:
+                      sources.write(re.sub(r'^0 \; \:DIS\_DISCRI\[0\]\[{}\]'.format(nn), '1 ; :DIS_DISCRI[0][' + str(nn) + ']', line))
