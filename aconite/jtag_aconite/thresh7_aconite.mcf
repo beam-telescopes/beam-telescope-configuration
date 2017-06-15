@@ -1,6 +1,6 @@
 #JTAG_MS MASTER CONFIGURATION FILE 08-29-2016
 6 ; number of devices
-C:\opt\jtag_aconite\pos0_chip55_thresh7.txt    ; (0)
+C:\opt\jtag_aconite\pos0_chip70_thresh7.txt    ; (0)
 C:\opt\jtag_aconite\pos1_chip66_thresh7.txt    ; (1)
 C:\opt\jtag_aconite\pos2_chip81_thresh7.txt    ; (2)
 C:\opt\jtag_aconite\pos3_chip68_thresh7.txt    ; (3)
