@@ -1,4 +1,4 @@
-# eudaq-configuration
+# beam-telescope-configuration
 Configuration repository and start scripts for specific EUDAQ deployments
 
 This repository holds all necessary configuration files and specific start stcripts for the deployment of EUDAQ with a given telescope installation.
