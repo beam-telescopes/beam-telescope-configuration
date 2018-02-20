@@ -1,0 +1,13 @@
+# for file /home/teleuser/.ssh/config
+
+host fhlrcdatura
+    HostName 192.168.21.1
+    User teleuser
+
+host 192.168.21.1
+    User teleuser
+
+host *
+    ForwardX11 yes
+    ServerAliveInterval 60
+    ServerAliveCountMax 240
