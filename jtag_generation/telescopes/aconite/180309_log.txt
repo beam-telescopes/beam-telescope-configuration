@@ -1,0 +1,636 @@
+aconite plane 0 : chip70
+Sensor 70
+IVDREF2: 100
+Middlepoint A: 102
+Middlepoint B: 130
+Middlepoint C: 150
+Middlepoint D: 172
+Temporal noise (mean) A: 1.047
+Temporal noise (mean) B: 1.043
+Temporal noise (mean) C: 0.9951
+Temporal noise (mean) D: 1.052
+Fixed Pattern noise (sigma) A: 0.3811
+Fixed Pattern noise (sigma) B: 0.525
+Fixed Pattern noise (sigma) C: 0.6516
+Fixed Pattern noise (sigma) D: 0.6336
+Offset (FPN mean) A: 0.1688
+Offset (FPN mean) B: -0.09585
+Offset (FPN mean) C: 0.1234
+Offset (FPN mean) D: -0.2837
+Columns to diable: []
+
+Total noise average of sensor 70 --> 1.17485153894
+
+Write file: chip70_thresh3.txt
+DAC_matA[3] 116 , Delta Middlepoints: 14
+DAC_matB[3] 144 , Delta Middlepoints: 14
+DAC_matC[3] 165 , Delta Middlepoints: 15
+DAC_matD[3] 186 , Delta Middlepoints: 14
+No columns were disabled.
+
+Write file: chip70_thresh4.txt
+DAC_matA[4] 121 , Delta Middlepoints: 19
+DAC_matB[4] 148 , Delta Middlepoints: 18
+DAC_matC[4] 170 , Delta Middlepoints: 20
+DAC_matD[4] 191 , Delta Middlepoints: 19
+No columns were disabled.
+
+Write file: chip70_thresh5.txt
+DAC_matA[5] 125 , Delta Middlepoints: 23
+DAC_matB[5] 153 , Delta Middlepoints: 23
+DAC_matC[5] 174 , Delta Middlepoints: 24
+DAC_matD[5] 195 , Delta Middlepoints: 23
+No columns were disabled.
+
+Write file: chip70_thresh6.txt
+DAC_matA[6] 129 , Delta Middlepoints: 27
+DAC_matB[6] 158 , Delta Middlepoints: 28
+DAC_matC[6] 179 , Delta Middlepoints: 29
+DAC_matD[6] 200 , Delta Middlepoints: 28
+No columns were disabled.
+
+Write file: chip70_thresh7.txt
+DAC_matA[7] 134 , Delta Middlepoints: 32
+DAC_matB[7] 162 , Delta Middlepoints: 32
+DAC_matC[7] 184 , Delta Middlepoints: 34
+DAC_matD[7] 205 , Delta Middlepoints: 33
+No columns were disabled.
+
+Write file: chip70_thresh8.txt
+DAC_matA[8] 138 , Delta Middlepoints: 36
+DAC_matB[8] 167 , Delta Middlepoints: 37
+DAC_matC[8] 189 , Delta Middlepoints: 39
+DAC_matD[8] 210 , Delta Middlepoints: 38
+No columns were disabled.
+
+Write file: chip70_thresh9.txt
+DAC_matA[9] 143 , Delta Middlepoints: 41
+DAC_matB[9] 172 , Delta Middlepoints: 42
+DAC_matC[9] 193 , Delta Middlepoints: 43
+DAC_matD[9] 215 , Delta Middlepoints: 43
+No columns were disabled.
+
+Write file: chip70_thresh10.txt
+DAC_matA[10] 147 , Delta Middlepoints: 45
+DAC_matB[10] 176 , Delta Middlepoints: 46
+DAC_matC[10] 198 , Delta Middlepoints: 48
+DAC_matD[10] 220 , Delta Middlepoints: 48
+No columns were disabled.
+
+Write file: chip70_thresh11.txt
+DAC_matA[11] 152 , Delta Middlepoints: 50
+DAC_matB[11] 181 , Delta Middlepoints: 51
+DAC_matC[11] 203 , Delta Middlepoints: 53
+DAC_matD[11] 225 , Delta Middlepoints: 53
+No columns were disabled.
+
+Write file: chip70_thresh12.txt
+DAC_matA[12] 156 , Delta Middlepoints: 54
+DAC_matB[12] 186 , Delta Middlepoints: 56
+DAC_matC[12] 208 , Delta Middlepoints: 58
+DAC_matD[12] 230 , Delta Middlepoints: 58
+No columns were disabled.
+Write file: pos0_chip70_thresh10.txt
+Write file: pos0_chip70_thresh11.txt
+Write file: pos0_chip70_thresh12.txt
+Write file: pos0_chip70_thresh3.txt
+Write file: pos0_chip70_thresh4.txt
+Write file: pos0_chip70_thresh5.txt
+Write file: pos0_chip70_thresh6.txt
+Write file: pos0_chip70_thresh7.txt
+Write file: pos0_chip70_thresh8.txt
+Write file: pos0_chip70_thresh9.txt
+aconite plane 1 : chip18
+Sensor 18
+IVDREF2: 100
+Middlepoint A: 162
+Middlepoint B: 123
+Middlepoint C: 120
+Middlepoint D: 211
+Temporal noise (mean) A: 1.034
+Temporal noise (mean) B: 0.9031
+Temporal noise (mean) C: 0.9543
+Temporal noise (mean) D: 0.9679
+Fixed Pattern noise (sigma) A: 0.3453
+Fixed Pattern noise (sigma) B: 0.536
+Fixed Pattern noise (sigma) C: 0.6778
+Fixed Pattern noise (sigma) D: 0.7004
+Offset (FPN mean) A: -0.01072
+Offset (FPN mean) B: -0.1301
+Offset (FPN mean) C: -0.039
+Offset (FPN mean) D: -0.04197
+Columns to diable: [812]
+
+Total noise average of sensor 18 --> 1.12639088651
+
+Write file: chip18_thresh3.txt
+DAC_matA[3] 175 , Delta Middlepoints: 13
+DAC_matB[3] 135 , Delta Middlepoints: 12
+DAC_matC[3] 134 , Delta Middlepoints: 14
+DAC_matD[3] 225 , Delta Middlepoints: 14
+Disabling column: 812
+
+Write file: chip18_thresh4.txt
+DAC_matA[4] 179 , Delta Middlepoints: 17
+DAC_matB[4] 139 , Delta Middlepoints: 16
+DAC_matC[4] 139 , Delta Middlepoints: 19
+DAC_matD[4] 230 , Delta Middlepoints: 19
+Disabling column: 812
+
+Write file: chip18_thresh5.txt
+DAC_matA[5] 184 , Delta Middlepoints: 22
+DAC_matB[5] 143 , Delta Middlepoints: 20
+DAC_matC[5] 143 , Delta Middlepoints: 23
+DAC_matD[5] 235 , Delta Middlepoints: 24
+Disabling column: 812
+
+Write file: chip18_thresh6.txt
+DAC_matA[6] 188 , Delta Middlepoints: 26
+DAC_matB[6] 148 , Delta Middlepoints: 25
+DAC_matC[6] 148 , Delta Middlepoints: 28
+DAC_matD[6] 240 , Delta Middlepoints: 29
+Disabling column: 812
+
+Write file: chip18_thresh7.txt
+DAC_matA[7] 192 , Delta Middlepoints: 30
+DAC_matB[7] 152 , Delta Middlepoints: 29
+DAC_matC[7] 153 , Delta Middlepoints: 33
+DAC_matD[7] 244 , Delta Middlepoints: 33
+Disabling column: 812
+
+Write file: chip18_thresh8.txt
+DAC_matA[8] 197 , Delta Middlepoints: 35
+DAC_matB[8] 156 , Delta Middlepoints: 33
+DAC_matC[8] 157 , Delta Middlepoints: 37
+DAC_matD[8] 249 , Delta Middlepoints: 38
+Disabling column: 812
+
+Write file: chip18_thresh9.txt
+DAC_matA[9] 201 , Delta Middlepoints: 39
+DAC_matB[9] 160 , Delta Middlepoints: 37
+DAC_matC[9] 162 , Delta Middlepoints: 42
+DAC_matD[9] 254 , Delta Middlepoints: 43
+Disabling column: 812
+
+Write file: chip18_thresh10.txt
+DAC_matA[10] 206 , Delta Middlepoints: 44
+DAC_matB[10] 164 , Delta Middlepoints: 41
+DAC_matC[10] 167 , Delta Middlepoints: 47
+DAC_matD[10] 255 , Delta Middlepoints: 44
+Disabling column: 812
+
+Write file: chip18_thresh11.txt
+DAC_matA[11] 210 , Delta Middlepoints: 48
+DAC_matB[11] 169 , Delta Middlepoints: 46
+DAC_matC[11] 171 , Delta Middlepoints: 51
+DAC_matD[11] 255 , Delta Middlepoints: 44
+Disabling column: 812
+
+Write file: chip18_thresh12.txt
+DAC_matA[12] 214 , Delta Middlepoints: 52
+DAC_matB[12] 173 , Delta Middlepoints: 50
+DAC_matC[12] 176 , Delta Middlepoints: 56
+DAC_matD[12] 255 , Delta Middlepoints: 44
+Disabling column: 812
+Write file: pos1_chip18_thresh10.txt
+Write file: pos1_chip18_thresh11.txt
+Write file: pos1_chip18_thresh12.txt
+Write file: pos1_chip18_thresh3.txt
+Write file: pos1_chip18_thresh4.txt
+Write file: pos1_chip18_thresh5.txt
+Write file: pos1_chip18_thresh6.txt
+Write file: pos1_chip18_thresh7.txt
+Write file: pos1_chip18_thresh8.txt
+Write file: pos1_chip18_thresh9.txt
+aconite plane 2 : chip81
+Sensor 81
+Input folder former2015/
+Input file name chip81_thresh
+Columns to diable: []
+
+former2015/chip81_thresh3.txt
+IVDREF2: 98
+IVDREF1A: 141
+IVDREF1B: 167
+IVDREF1C: 149
+IVDREF1D: 161
+Write file: chip81_thresh3.txt
+No columns were disabled.
+
+former2015/chip81_thresh4.txt
+IVDREF2: 98
+IVDREF1A: 145
+IVDREF1B: 171
+IVDREF1C: 155
+IVDREF1D: 167
+Write file: chip81_thresh4.txt
+No columns were disabled.
+
+former2015/chip81_thresh5.txt
+IVDREF2: 98
+IVDREF1A: 149
+IVDREF1B: 176
+IVDREF1C: 160
+IVDREF1D: 172
+Write file: chip81_thresh5.txt
+No columns were disabled.
+
+former2015/chip81_thresh6.txt
+IVDREF2: 98
+IVDREF1A: 153
+IVDREF1B: 181
+IVDREF1C: 166
+IVDREF1D: 178
+Write file: chip81_thresh6.txt
+No columns were disabled.
+
+former2015/chip81_thresh7.txt
+IVDREF2: 98
+IVDREF1A: 158
+IVDREF1B: 185
+IVDREF1C: 171
+IVDREF1D: 183
+Write file: chip81_thresh7.txt
+No columns were disabled.
+
+former2015/chip81_thresh8.txt
+IVDREF2: 98
+IVDREF1A: 162
+IVDREF1B: 190
+IVDREF1C: 177
+IVDREF1D: 188
+Write file: chip81_thresh8.txt
+No columns were disabled.
+
+former2015/chip81_thresh9.txt
+IVDREF2: 98
+IVDREF1A: 166
+IVDREF1B: 195
+IVDREF1C: 182
+IVDREF1D: 194
+Write file: chip81_thresh9.txt
+No columns were disabled.
+
+former2015/chip81_thresh10.txt
+IVDREF2: 98
+IVDREF1A: 170
+IVDREF1B: 199
+IVDREF1C: 188
+IVDREF1D: 199
+Write file: chip81_thresh10.txt
+No columns were disabled.
+
+former2015/chip81_thresh11.txt
+IVDREF2: 98
+IVDREF1A: 175
+IVDREF1B: 204
+IVDREF1C: 193
+IVDREF1D: 205
+Write file: chip81_thresh11.txt
+No columns were disabled.
+
+former2015/chip81_thresh12.txt
+IVDREF2: 98
+IVDREF1A: 179
+IVDREF1B: 208
+IVDREF1C: 199
+IVDREF1D: 210
+Write file: chip81_thresh12.txt
+No columns were disabled.
+Write file: pos2_chip81_thresh10.txt
+Write file: pos2_chip81_thresh11.txt
+Write file: pos2_chip81_thresh12.txt
+Write file: pos2_chip81_thresh3.txt
+Write file: pos2_chip81_thresh4.txt
+Write file: pos2_chip81_thresh5.txt
+Write file: pos2_chip81_thresh6.txt
+Write file: pos2_chip81_thresh7.txt
+Write file: pos2_chip81_thresh8.txt
+Write file: pos2_chip81_thresh9.txt
+aconite plane 3 : chip3
+Sensor 3
+IVDREF2: 100
+Middlepoint A: 144
+Middlepoint B: 171
+Middlepoint C: 132
+Middlepoint D: 88
+Temporal noise (mean) A: 1.016
+Temporal noise (mean) B: 1.026
+Temporal noise (mean) C: 0.9764
+Temporal noise (mean) D: 0.9658
+Fixed Pattern noise (sigma) A: 0.4772
+Fixed Pattern noise (sigma) B: 0.5384
+Fixed Pattern noise (sigma) C: 0.6084
+Fixed Pattern noise (sigma) D: 0.5991
+Offset (FPN mean) A: 0.008371
+Offset (FPN mean) B: -0.2582
+Offset (FPN mean) C: -0.6084
+Offset (FPN mean) D: -0.1458
+Columns to diable: []
+
+Total noise average of sensor 3 --> 1.14203371709
+
+Write file: chip3_thresh3.txt
+DAC_matA[3] 158 , Delta Middlepoints: 14
+DAC_matB[3] 184 , Delta Middlepoints: 13
+DAC_matC[3] 143 , Delta Middlepoints: 11
+DAC_matD[3] 101 , Delta Middlepoints: 13
+No columns were disabled.
+
+Write file: chip3_thresh4.txt
+DAC_matA[4] 162 , Delta Middlepoints: 18
+DAC_matB[4] 189 , Delta Middlepoints: 18
+DAC_matC[4] 148 , Delta Middlepoints: 16
+DAC_matD[4] 106 , Delta Middlepoints: 18
+No columns were disabled.
+
+Write file: chip3_thresh5.txt
+DAC_matA[5] 166 , Delta Middlepoints: 22
+DAC_matB[5] 193 , Delta Middlepoints: 22
+DAC_matC[5] 153 , Delta Middlepoints: 21
+DAC_matD[5] 110 , Delta Middlepoints: 22
+No columns were disabled.
+
+Write file: chip3_thresh6.txt
+DAC_matA[6] 171 , Delta Middlepoints: 27
+DAC_matB[6] 198 , Delta Middlepoints: 27
+DAC_matC[6] 157 , Delta Middlepoints: 25
+DAC_matD[6] 115 , Delta Middlepoints: 27
+No columns were disabled.
+
+Write file: chip3_thresh7.txt
+DAC_matA[7] 175 , Delta Middlepoints: 31
+DAC_matB[7] 202 , Delta Middlepoints: 31
+DAC_matC[7] 162 , Delta Middlepoints: 30
+DAC_matD[7] 119 , Delta Middlepoints: 31
+No columns were disabled.
+
+Write file: chip3_thresh8.txt
+DAC_matA[8] 180 , Delta Middlepoints: 36
+DAC_matB[8] 207 , Delta Middlepoints: 36
+DAC_matC[8] 166 , Delta Middlepoints: 34
+DAC_matD[8] 124 , Delta Middlepoints: 36
+No columns were disabled.
+
+Write file: chip3_thresh9.txt
+DAC_matA[9] 184 , Delta Middlepoints: 40
+DAC_matB[9] 212 , Delta Middlepoints: 41
+DAC_matC[9] 171 , Delta Middlepoints: 39
+DAC_matD[9] 128 , Delta Middlepoints: 40
+No columns were disabled.
+
+Write file: chip3_thresh10.txt
+DAC_matA[10] 189 , Delta Middlepoints: 45
+DAC_matB[10] 216 , Delta Middlepoints: 45
+DAC_matC[10] 176 , Delta Middlepoints: 44
+DAC_matD[10] 133 , Delta Middlepoints: 45
+No columns were disabled.
+
+Write file: chip3_thresh11.txt
+DAC_matA[11] 193 , Delta Middlepoints: 49
+DAC_matB[11] 221 , Delta Middlepoints: 50
+DAC_matC[11] 180 , Delta Middlepoints: 48
+DAC_matD[11] 137 , Delta Middlepoints: 49
+No columns were disabled.
+
+Write file: chip3_thresh12.txt
+DAC_matA[12] 198 , Delta Middlepoints: 54
+DAC_matB[12] 226 , Delta Middlepoints: 55
+DAC_matC[12] 185 , Delta Middlepoints: 53
+DAC_matD[12] 142 , Delta Middlepoints: 54
+No columns were disabled.
+Write file: pos3_chip3_thresh10.txt
+Write file: pos3_chip3_thresh11.txt
+Write file: pos3_chip3_thresh12.txt
+Write file: pos3_chip3_thresh3.txt
+Write file: pos3_chip3_thresh4.txt
+Write file: pos3_chip3_thresh5.txt
+Write file: pos3_chip3_thresh6.txt
+Write file: pos3_chip3_thresh7.txt
+Write file: pos3_chip3_thresh8.txt
+Write file: pos3_chip3_thresh9.txt
+aconite plane 4 : chip9b
+Sensor 9b
+IVDREF2: 100
+Middlepoint A: 142
+Middlepoint B: 86
+Middlepoint C: 144
+Middlepoint D: 127
+Temporal noise (mean) A: 1.022
+Temporal noise (mean) B: 1.016
+Temporal noise (mean) C: 0.987
+Temporal noise (mean) D: 0.9204
+Fixed Pattern noise (sigma) A: 0.5197
+Fixed Pattern noise (sigma) B: 0.5604
+Fixed Pattern noise (sigma) C: 0.6137
+Fixed Pattern noise (sigma) D: 0.6027
+Offset (FPN mean) A: -0.07018
+Offset (FPN mean) B: -0.1056
+Offset (FPN mean) C: -0.1717
+Offset (FPN mean) D: -0.2145
+Columns to diable: []
+
+Total noise average of sensor 9b --> 1.14231586365
+
+Write file: chip9b_thresh3.txt
+DAC_matA[3] 155 , Delta Middlepoints: 13
+DAC_matB[3] 100 , Delta Middlepoints: 14
+DAC_matC[3] 157 , Delta Middlepoints: 13
+DAC_matD[3] 139 , Delta Middlepoints: 12
+No columns were disabled.
+
+Write file: chip9b_thresh4.txt
+DAC_matA[4] 160 , Delta Middlepoints: 18
+DAC_matB[4] 104 , Delta Middlepoints: 18
+DAC_matC[4] 162 , Delta Middlepoints: 18
+DAC_matD[4] 144 , Delta Middlepoints: 17
+No columns were disabled.
+
+Write file: chip9b_thresh5.txt
+DAC_matA[5] 165 , Delta Middlepoints: 23
+DAC_matB[5] 109 , Delta Middlepoints: 23
+DAC_matC[5] 167 , Delta Middlepoints: 23
+DAC_matD[5] 148 , Delta Middlepoints: 21
+No columns were disabled.
+
+Write file: chip9b_thresh6.txt
+DAC_matA[6] 169 , Delta Middlepoints: 27
+DAC_matB[6] 113 , Delta Middlepoints: 27
+DAC_matC[6] 171 , Delta Middlepoints: 27
+DAC_matD[6] 153 , Delta Middlepoints: 26
+No columns were disabled.
+
+Write file: chip9b_thresh7.txt
+DAC_matA[7] 174 , Delta Middlepoints: 32
+DAC_matB[7] 118 , Delta Middlepoints: 32
+DAC_matC[7] 176 , Delta Middlepoints: 32
+DAC_matD[7] 157 , Delta Middlepoints: 30
+No columns were disabled.
+
+Write file: chip9b_thresh8.txt
+DAC_matA[8] 178 , Delta Middlepoints: 36
+DAC_matB[8] 123 , Delta Middlepoints: 37
+DAC_matC[8] 181 , Delta Middlepoints: 37
+DAC_matD[8] 161 , Delta Middlepoints: 34
+No columns were disabled.
+
+Write file: chip9b_thresh9.txt
+DAC_matA[9] 183 , Delta Middlepoints: 41
+DAC_matB[9] 127 , Delta Middlepoints: 41
+DAC_matC[9] 185 , Delta Middlepoints: 41
+DAC_matD[9] 166 , Delta Middlepoints: 39
+No columns were disabled.
+
+Write file: chip9b_thresh10.txt
+DAC_matA[10] 188 , Delta Middlepoints: 46
+DAC_matB[10] 132 , Delta Middlepoints: 46
+DAC_matC[10] 190 , Delta Middlepoints: 46
+DAC_matD[10] 170 , Delta Middlepoints: 43
+No columns were disabled.
+
+Write file: chip9b_thresh11.txt
+DAC_matA[11] 192 , Delta Middlepoints: 50
+DAC_matB[11] 137 , Delta Middlepoints: 51
+DAC_matC[11] 194 , Delta Middlepoints: 50
+DAC_matD[11] 175 , Delta Middlepoints: 48
+No columns were disabled.
+
+Write file: chip9b_thresh12.txt
+DAC_matA[12] 197 , Delta Middlepoints: 55
+DAC_matB[12] 141 , Delta Middlepoints: 55
+DAC_matC[12] 199 , Delta Middlepoints: 55
+DAC_matD[12] 179 , Delta Middlepoints: 52
+No columns were disabled.
+Write file: pos4_chip9b_thresh10.txt
+Write file: pos4_chip9b_thresh11.txt
+Write file: pos4_chip9b_thresh12.txt
+Write file: pos4_chip9b_thresh3.txt
+Write file: pos4_chip9b_thresh4.txt
+Write file: pos4_chip9b_thresh5.txt
+Write file: pos4_chip9b_thresh6.txt
+Write file: pos4_chip9b_thresh7.txt
+Write file: pos4_chip9b_thresh8.txt
+Write file: pos4_chip9b_thresh9.txt
+aconite plane 5 : chip10b
+Sensor 10b
+IVDREF2: 100
+Middlepoint A: 150
+Middlepoint B: 145
+Middlepoint C: 121
+Middlepoint D: 210
+Temporal noise (mean) A: 1.093
+Temporal noise (mean) B: 0.9535
+Temporal noise (mean) C: 1.016
+Temporal noise (mean) D: 1.006
+Fixed Pattern noise (sigma) A: 0.4204
+Fixed Pattern noise (sigma) B: 0.5108
+Fixed Pattern noise (sigma) C: 0.7331
+Fixed Pattern noise (sigma) D: 0.6334
+Offset (FPN mean) A: 0.1073
+Offset (FPN mean) B: -0.1837
+Offset (FPN mean) C: -0.1247
+Offset (FPN mean) D: -0.1453
+Columns to diable: []
+
+Total noise average of sensor 10b --> 1.17360772632
+
+Write file: chip10b_thresh3.txt
+DAC_matA[3] 164 , Delta Middlepoints: 14
+DAC_matB[3] 157 , Delta Middlepoints: 12
+DAC_matC[3] 136 , Delta Middlepoints: 15
+DAC_matD[3] 224 , Delta Middlepoints: 14
+No columns were disabled.
+
+Write file: chip10b_thresh4.txt
+DAC_matA[4] 169 , Delta Middlepoints: 19
+DAC_matB[4] 162 , Delta Middlepoints: 17
+DAC_matC[4] 141 , Delta Middlepoints: 20
+DAC_matD[4] 228 , Delta Middlepoints: 18
+No columns were disabled.
+
+Write file: chip10b_thresh5.txt
+DAC_matA[5] 174 , Delta Middlepoints: 24
+DAC_matB[5] 166 , Delta Middlepoints: 21
+DAC_matC[5] 146 , Delta Middlepoints: 25
+DAC_matD[5] 233 , Delta Middlepoints: 23
+No columns were disabled.
+
+Write file: chip10b_thresh6.txt
+DAC_matA[6] 179 , Delta Middlepoints: 29
+DAC_matB[6] 170 , Delta Middlepoints: 25
+DAC_matC[6] 151 , Delta Middlepoints: 30
+DAC_matD[6] 238 , Delta Middlepoints: 28
+No columns were disabled.
+
+Write file: chip10b_thresh7.txt
+DAC_matA[7] 183 , Delta Middlepoints: 33
+DAC_matB[7] 175 , Delta Middlepoints: 30
+DAC_matC[7] 156 , Delta Middlepoints: 35
+DAC_matD[7] 243 , Delta Middlepoints: 33
+No columns were disabled.
+
+Write file: chip10b_thresh8.txt
+DAC_matA[8] 188 , Delta Middlepoints: 38
+DAC_matB[8] 179 , Delta Middlepoints: 34
+DAC_matC[8] 161 , Delta Middlepoints: 40
+DAC_matD[8] 247 , Delta Middlepoints: 37
+No columns were disabled.
+
+Write file: chip10b_thresh9.txt
+DAC_matA[9] 193 , Delta Middlepoints: 43
+DAC_matB[9] 183 , Delta Middlepoints: 38
+DAC_matC[9] 166 , Delta Middlepoints: 45
+DAC_matD[9] 252 , Delta Middlepoints: 42
+No columns were disabled.
+
+Write file: chip10b_thresh10.txt
+DAC_matA[10] 197 , Delta Middlepoints: 47
+DAC_matB[10] 188 , Delta Middlepoints: 43
+DAC_matC[10] 171 , Delta Middlepoints: 50
+DAC_matD[10] 255 , Delta Middlepoints: 45
+No columns were disabled.
+
+Write file: chip10b_thresh11.txt
+DAC_matA[11] 202 , Delta Middlepoints: 52
+DAC_matB[11] 192 , Delta Middlepoints: 47
+DAC_matC[11] 176 , Delta Middlepoints: 55
+DAC_matD[11] 255 , Delta Middlepoints: 45
+No columns were disabled.
+
+Write file: chip10b_thresh12.txt
+DAC_matA[12] 207 , Delta Middlepoints: 57
+DAC_matB[12] 196 , Delta Middlepoints: 51
+DAC_matC[12] 181 , Delta Middlepoints: 60
+DAC_matD[12] 255 , Delta Middlepoints: 45
+No columns were disabled.
+Write file: pos5_chip10b_thresh10.txt
+Write file: pos5_chip10b_thresh11.txt
+Write file: pos5_chip10b_thresh12.txt
+Write file: pos5_chip10b_thresh3.txt
+Write file: pos5_chip10b_thresh4.txt
+Write file: pos5_chip10b_thresh5.txt
+Write file: pos5_chip10b_thresh6.txt
+Write file: pos5_chip10b_thresh7.txt
+Write file: pos5_chip10b_thresh8.txt
+Write file: pos5_chip10b_thresh9.txt
+/opt/beam-telescope-configuration/jtag_generation/telescopes/aconite/../../scripts/
+./jtag_aconite/thresh3_aconite.mcf
+
+./jtag_aconite/thresh4_aconite.mcf
+
+./jtag_aconite/thresh5_aconite.mcf
+
+./jtag_aconite/thresh6_aconite.mcf
+
+./jtag_aconite/thresh7_aconite.mcf
+
+./jtag_aconite/thresh8_aconite.mcf
+
+./jtag_aconite/thresh9_aconite.mcf
+
+./jtag_aconite/thresh10_aconite.mcf
+
+./jtag_aconite/thresh11_aconite.mcf
+
+./jtag_aconite/thresh12_aconite.mcf
+
