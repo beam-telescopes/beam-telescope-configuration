@@ -25,11 +25,12 @@ Usgage: generate "telescope" configuration (mcf)
 * source telescope.sh renames threshold files, save them in one folder, generates mcf
 
 
-by Jan Dreyling-Eschweiler, 
-Version 1: 4 Sep 2015
-Version 2: 15 Jan 2016
-Version 3: 23 Aug 2016, class Jtag
-Version 4: 09 Mar 2018, update Readme and scripts in dedicated folder
+Version log:
+------------
+* Version 1: 4 Sep 2015
+* Version 2: 15 Jan 2016
+* Version 3: 23 Aug 2016, class Jtag
+* Version 4: 09 Mar 2018, update Readme and scripts in dedicated folder
 
 
 
@@ -39,11 +40,11 @@ Some more details on jtag format and registers
 Adjust DAC values
 -----------------
 e.g. DAC-vlaues (XXX) of plane 0
-* line 26: XXX ; :BIAS_DAC[0][10] --> IVDREF1D
-* line 27: XXX ; :BIAS_DAC[0][11] --> IVDREF1C
-* line 28: XXX ; :BIAS_DAC[0][12] --> IVDREF1B
-* line 29: XXX ; :BIAS_DAC[0][13] --> IVDREF1A
-* line 30: XXX ; :BIAS_DAC[0][14] --> IVDREF2
+* line 26: `XXX ; :BIAS_DAC[0][10] --> IVDREF1D`
+* line 27: `XXX ; :BIAS_DAC[0][11] --> IVDREF1C`
+* line 28: `XXX ; :BIAS_DAC[0][12] --> IVDREF1B`
+* line 29: `XXX ; :BIAS_DAC[0][13] --> IVDREF1A`
+* line 30: `XXX ; :BIAS_DAC[0][14] --> IVDREF2`
 
 Change telescope plane
 ----------------------
@@ -52,8 +53,8 @@ Number in first []-brackets plus headers and trailers
 Start signal
 ------------
 Ext signal:
-* Disable and set by JTAG: 0 ; :RO_MODE0[X][1]
-* Enable and set by clock: 1 ; :RO_MODE0[X][1]
+* Disable and set by JTAG: `0 ; :RO_MODE0[X][1]`
+* Enable and set by clock: `1 ; :RO_MODE0[X][1]`
 
 Setting:
 * should be enabled
@@ -67,20 +68,23 @@ IR[X]-parameter: 30, 25, 21, 15,
 
 Test1Pad/Test2Pad
 * Test1Pad: ClkDiv16 and Test2Pad: Calib
-* 63 ; :CTRL_PIX[X][3]
+* `63 ; :CTRL_PIX[X][3]`
+
 --> Test mode
 
 * Test1Pad: Test_A and Test2Pad: Calib
-* 7 ; :CTRL_PIX[X][3]
+* `7 ; :CTRL_PIX[X][3]`
+
 --> ?
 
 * Test1Pad: Test_A and Test2Pad: Test_D
-* 0 ; :CTRL_PIX[X][3]
+* `0 ; :CTRL_PIX[X][3]`
+
 --> operational mode
 
 Deactivate columns, e.g. 1003:
-* Enable (normal):     0 ; :DIS_DISCRI[X][1003]
-* Disable (if broken): 1 ; :DIS_DISCRI[X][1003]
+* Enable (normal):     `0 ; :DIS_DISCRI[X][1003]`
+* Disable (if broken): `1 ; :DIS_DISCRI[X][1003]`
 
 Other
 -----
