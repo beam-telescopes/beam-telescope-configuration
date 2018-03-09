@@ -1,0 +1,9 @@
+#JTAG_MS MASTER CONFIGURATION FILE Wed Sep 28 11:26:17 2011
+6 ; number of devices 
+C:\projects\jtag\config_files\AIDA_telescope_Mimosa26\chip61_pos0_thresh8b.TXT    ; (0)  
+C:\projects\jtag\config_files\AIDA_telescope_Mimosa26\chip63_pos1_thresh8b.TXT    ; (1)  
+C:\projects\jtag\config_files\AIDA_telescope_Mimosa26\chip22_pos2_thresh8b.TXT    ; (2)  
+C:\projects\jtag\config_files\AIDA_telescope_Mimosa26\chip13_pos3_thresh8b.TXT    ; (3)  
+C:\projects\jtag\config_files\AIDA_telescope_Mimosa26\chip56_pos4_thresh8b.TXT    ; (4)  
+C:\projects\jtag\config_files\AIDA_telescope_Mimosa26\chip54_pos5_thresh8b.TXT    ; (5)  
+#END OF JTAG_MS MASTER CONFIGURATION FILE

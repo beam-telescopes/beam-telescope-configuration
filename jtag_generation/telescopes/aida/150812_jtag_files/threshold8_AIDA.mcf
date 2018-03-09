@@ -1,0 +1,9 @@
+#JTAG_MS MASTER CONFIGURATION FILE Wed Aug 12 12:00:00 2015
+6 ; number of devices 
+C:\opt\jtag_AIDA\threshold8\chip61_pos0_thresh8b.TXT    ; (0)  
+C:\opt\jtag_AIDA\threshold8\chip63_pos1_thresh8b.TXT    ; (1)  
+C:\opt\jtag_AIDA\threshold8\chip22_pos2_thresh8b.TXT    ; (2)  
+C:\opt\jtag_AIDA\threshold8\chip13_pos3_thresh8b.TXT    ; (3)  
+C:\opt\jtag_AIDA\threshold8\chip56_pos4_thresh8b.TXT    ; (4)  
+C:\opt\jtag_AIDA\threshold8\chip54_pos5_thresh8b.TXT    ; (5)  
+#END OF JTAG_MS MASTER CONFIGURATION FILE

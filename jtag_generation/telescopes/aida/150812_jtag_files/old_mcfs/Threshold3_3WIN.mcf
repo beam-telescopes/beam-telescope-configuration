@@ -1,0 +1,9 @@
+#JTAG_MS MASTER CONFIGURATION FILE Sun Aug 14 22:00:43 2011
+6 ; number of devices
+C:\Users\telescope\Desktop\JTAG_CONFIG\chip61_pos0_thresh3.TXT    ; (0)  
+C:\Users\telescope\Desktop\JTAG_CONFIG\chip63_pos1_thresh3.TXT    ; (1)  
+C:\Users\telescope\Desktop\JTAG_CONFIG\chip22_pos2_thresh3.TXT    ; (2)  
+C:\Users\telescope\Desktop\JTAG_CONFIG\chip13_pos3_thresh3.TXT    ; (3)  
+C:\Users\telescope\Desktop\JTAG_CONFIG\chip56_pos4_thresh3.TXT    ; (4)  
+C:\Users\telescope\Desktop\JTAG_CONFIG\chip54_pos5_thresh3.TXT    ; (5)  
+#END OF JTAG_MS MASTER CONFIGURATION FILE

@@ -1,0 +1,11 @@
+#JTAG_MS MASTER CONFIGURATION FILE Wed Jul 29 23:00:54 2015
+8 ; number of devices 
+default.txt    ; (0) 
+default.txt    ; (1) 
+default.txt    ; (2) 
+default.txt    ; (3) 
+default.txt    ; (4) 
+default.txt    ; (5) 
+C:\projects\jtag\config_files\AIDA_telescope_Mimosa26\chip61_pos0_thresh6_tuned.TXT    ; (6)  
+C:\projects\jtag\config_files\AIDA_telescope_Mimosa26\chip61_pos0_thresh6_tuned.TXT    ; (7)  
+#END OF JTAG_MS MASTER CONFIGURATION FILE
