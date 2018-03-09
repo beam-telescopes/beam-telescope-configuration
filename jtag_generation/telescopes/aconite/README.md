@@ -59,6 +59,7 @@ For intermediate, five plane telescope:
 April/May 2017:
 ---------------
 --> send chararcterized sensors to Andre Rummler: chip12b (AIDA), chip70
+
 --> send broken sensors to Strassburg: chip 55, chip 59, chip 67, chip 72 --> see sensor report from 18.05.17
 
 June 2017:
@@ -78,6 +79,7 @@ observation at CERN / in ELab4:
 * chip 68 (3): additional hot and dead column
 * chip 62 (4): Matrix A dead 
 * chip 57 (5): additional hot column
+
 --> send these sensors to Strassburg --> see sensor report from 12.02.18
 
 March 2018:
@@ -88,4 +90,5 @@ March 2018:
 3. chip3   HR10 (new)
 4. chip9b  HR10 (new)
 5. chip10b HR10 (new)
+
 --> send new, chararcterized sensors to Andre Rummler
