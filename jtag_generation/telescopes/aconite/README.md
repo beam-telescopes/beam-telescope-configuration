@@ -48,3 +48,22 @@ chip62 (4) HR10
 chip57 (5) HR10 (new)
 
 Commissioning succesful: No JTAG errors, running current at 3.66A, data seems to be good.
+
+
+XXX ???
+-------
+
+
+March 2018:
+-----------
+
+chip55 (0) HR10
+chip66 (1) HR10
+chip81 (2) HR20 (new)
+chip68 (3) HR20 (new)
+chip62 (4) HR10
+chip57 (5) HR10 (new)
+
+
+
+

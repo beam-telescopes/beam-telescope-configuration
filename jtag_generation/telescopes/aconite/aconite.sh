@@ -3,7 +3,7 @@
 # which telescope
 TELESCOPE='aconite'
 # which sensors, at which positions
-declare -a array=("chip55" "chip66" "chip81" "chip68" "chip62" "chip57")
+declare -a array=("chip55" "chip66" "chip81" "chip18" "chip3" "chip9b" "chip10b")
 
 ###########################################
 TELESCOPE_PATH=$PWD
