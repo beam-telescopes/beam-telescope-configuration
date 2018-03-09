@@ -1,9 +1,9 @@
-#JTAG_MS MASTER CONFIGURATION FILE 08-29-2016
+#JTAG_MS MASTER CONFIGURATION FILE 03-09-2018
 6 ; number of devices
-C:\opt\jtag_aconite\pos0_chip55_thresh4.txt    ; (0)
-C:\opt\jtag_aconite\pos1_chip66_thresh4.txt    ; (1)
+C:\opt\jtag_aconite\pos0_chip70_thresh4.txt    ; (0)
+C:\opt\jtag_aconite\pos1_chip18_thresh4.txt    ; (1)
 C:\opt\jtag_aconite\pos2_chip81_thresh4.txt    ; (2)
-C:\opt\jtag_aconite\pos3_chip68_thresh4.txt    ; (3)
-C:\opt\jtag_aconite\pos4_chip62_thresh4.txt    ; (4)
-C:\opt\jtag_aconite\pos5_chip57_thresh4.txt    ; (5)
+C:\opt\jtag_aconite\pos3_chip3_thresh4.txt    ; (3)
+C:\opt\jtag_aconite\pos4_chip9b_thresh4.txt    ; (4)
+C:\opt\jtag_aconite\pos5_chip10b_thresh4.txt    ; (5)
 #END OF JTAG_MS MASTER CONFIGURATION FILE
