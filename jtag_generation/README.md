@@ -25,21 +25,11 @@ Usgage: generate "telescope" configuration (mcf)
 * source telescope.sh renames threshold files, save them in one folder, generates mcf
 
 
-
-
-
-
-
-
-
-
 by Jan Dreyling-Eschweiler, 
 Version 1: 4 Sep 2015
 Version 2: 15 Jan 2016
 Version 3: 23 Aug 2016, class Jtag
 Version 4: 09 Mar 2018, update Readme and scripts in dedicated folder
-
-
 
 
 
@@ -64,6 +54,7 @@ Start signal
 Ext signal:
 * Disable and set by JTAG: 0 ; :RO_MODE0[X][1]
 * Enable and set by clock: 1 ; :RO_MODE0[X][1]
+
 Setting:
 * should be enabled
 * however, for Artems integration, it doesn't matter
@@ -94,4 +85,4 @@ Deactivate columns, e.g. 1003:
 Other
 -----
 diff files and remove ^M as end of line in unix files:
-tr -d '\r' <unix_file.txt | diff - win_file.txt
+`tr -d '\r' <unix_file.txt | diff - win_file.txt`
