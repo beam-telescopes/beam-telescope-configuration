@@ -5,12 +5,12 @@ SensorID (plane position) epi-layer and comments
 
 Before Sept. 2015:
 ------------------
-chip55 (0)  HR10
-chip66 (1)  HR10
-chip67 (2)  HR10
-chip72b (3) HR10
-chip69 (4)  HR15
-chip81 (5)  HR20
+0. chip55 (0)  HR10
+1. chip66 (1)  HR10
+2. chip67 (2)  HR10
+3. chip72b (3) HR10
+4. chip69 (4)  HR15
+5. chip81 (5)  HR20
 
 September 2015:
 ---------------
