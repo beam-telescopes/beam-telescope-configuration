@@ -38,14 +38,20 @@ find ./ -not -name '*test*' -name 'pos5*' | parallel rm '{}'
 for files in *_test.txt; do 
 mv -- "$files" "${files%_test.txt}.txt"
 done
-
-# adjust extern start
-# difference of CTRL_8B10BREG1, IR ????
-# B DAC value was manually adjusted by HJ using MimosaJTAG version ~1.7 ? on DATURA
+# DAC value was manually corrected by HJ using MimosaJTAG on DATURA
 #diff jtag_datura/pos0_chip73_thresh12.txt 150913_config_files/threshold12/pos0_chip73_thresh12.txt 
 #diff jtag_datura/pos5_chip79_thresh12.txt 150913_config_files/threshold12/pos5_chip79_thresh12.txt
 
-#source mcf_generator.sh
+# adjust register
+cd $TELESCOPE_PATH/jtag_$TELESCOPE
+cp $SCRIPT_PATH'adjust_register.sh' .
+source adjust_register.sh
+rm adjust_register.sh
+
+# adjust extern start
+# 0 ; :RO_MODE0[X][1] --> 1 ; :RO_MODE0[X][1]
+# adjust ctrl_pix
+# 63 ; :CTRL_PIX[X][3] --> 0 ; :CTRL_PIX[X][3]
 
 # create master-configuration files i
 cd $TELESCOPE_PATH
