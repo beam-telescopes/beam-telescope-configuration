@@ -12,6 +12,8 @@ THRESHOLDS=(thresh3 thresh4 thresh5 thresh6 thresh7 thresh8 thresh9 thresh10 thr
 NOW=$(date +"%m-%d-%Y")
 
 
+# clear directory
+rm -f jtag_datura/*.mcf
 
 # change name of correct plane5 files 
 for threshold in "thresh3" "thresh4" "thresh5" "thresh6" "thresh7" "thresh8" "thresh9" "thresh10" "thresh11" "thresh12"; do 
