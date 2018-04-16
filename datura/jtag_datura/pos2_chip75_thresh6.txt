@@ -1,4 +1,4 @@
-#JTAG_MS Fri Jul 20 16:41:22 2012
+#JTAG_MS Mon Apr 16 10:33:56 2018
 1 ; number of devices 
 30 ; :IR[2]
 0 ; :ID_CODE[2]
@@ -33,7 +33,7 @@
 50 ; :BIAS_DAC[2][17]
 120 ; :BIAS_DAC[2][18]
 0 ; :RO_MODE0[2][0]
-0 ; :RO_MODE0[2][1]
+1 ; :RO_MODE0[2][1]
 0 ; :RO_MODE0[2][2]
 0 ; :RO_MODE0[2][3]
 0 ; :RO_MODE0[2][4]
@@ -51,7 +51,7 @@
 0 ; :CTRL_PIX[2][0]
 0 ; :CTRL_PIX[2][1]
 575 ; :CTRL_PIX[2][2]
-63 ; :CTRL_PIX[2][3]
+0 ; :CTRL_PIX[2][3]
 65535 ; :SEQ_PIX[2][0]
 65535 ; :SEQ_PIX[2][1]
 24576 ; :SEQ_PIX[2][2]
