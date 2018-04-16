@@ -1,4 +1,4 @@
-#JTAG_MS Mon Apr 16 10:33:34 2018
+#JTAG_MS Fri Jul 20 16:27:18 2012
 1 ; number of devices 
 30 ; :IR[0]
 0 ; :ID_CODE[0]

@@ -1,4 +1,4 @@
-#JTAG_MS Mon Apr 16 10:17:31 2018
+#JTAG_MS Wed Apr 11 16:32:24 2018
 1 ; number of devices 
 30 ; :IR[3]
 0 ; :ID_CODE[3]
@@ -33,7 +33,7 @@
 50 ; :BIAS_DAC[3][17]
 120 ; :BIAS_DAC[3][18]
 0 ; :RO_MODE0[3][0]
-0 ; :RO_MODE0[3][1]
+1 ; :RO_MODE0[3][1]
 0 ; :RO_MODE0[3][2]
 0 ; :RO_MODE0[3][3]
 0 ; :RO_MODE0[3][4]

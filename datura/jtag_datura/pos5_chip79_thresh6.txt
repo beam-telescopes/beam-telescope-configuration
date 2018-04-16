@@ -1,6 +1,6 @@
-#JTAG_MS Mon Apr 16 10:34:24 2018
+#JTAG_MS Tue Jul 14 10:40:16 2015
 1 ; number of devices 
-30 ; :IR[5]
+15 ; :IR[5]
 0 ; :ID_CODE[5]
 0 ; :BY_BASS[5]
 0 ; :BSR[5][0]
