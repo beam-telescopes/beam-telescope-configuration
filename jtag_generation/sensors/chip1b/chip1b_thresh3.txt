@@ -1,4 +1,4 @@
-#JTAG_MS Mon Aug 29 11:57:15 2016
+#JTAG_MS Mon Nov 26 13:13:59 2018
 1 ; number of devices 
 30 ; :IR[0]
 0 ; :ID_CODE[0]
@@ -23,11 +23,11 @@
 128 ; :BIAS_DAC[0][7]
 118 ; :BIAS_DAC[0][8]
 50 ; :BIAS_DAC[0][9]
-108 ; :BIAS_DAC[0][10]
+109 ; :BIAS_DAC[0][10]
 145 ; :BIAS_DAC[0][11]
 129 ; :BIAS_DAC[0][12]
-142 ; :BIAS_DAC[0][13]
-98 ; :BIAS_DAC[0][14]
+141 ; :BIAS_DAC[0][13]
+100 ; :BIAS_DAC[0][14]
 32 ; :BIAS_DAC[0][15]
 32 ; :BIAS_DAC[0][16]
 50 ; :BIAS_DAC[0][17]

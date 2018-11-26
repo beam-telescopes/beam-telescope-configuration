@@ -1,31 +1,31 @@
 ######################################
-# Last update: 26 November 2018, Jan Dreyling-Eschweiler
+# Last update: 24 August 2016, Jan Dreyling-Eschweiler
 
 ######################################
 # Sensor Name
 sensor_name = "1b"
 
 # Middlepoints in DAC
-IVDREF2  = 100
+IVDREF2  = 98
 IVDREF1A = 127
-IVDREF1B = 115
-IVDREF1C = 132
-IVDREF1D = 94
+IVDREF1B = 116
+IVDREF1C = 130
+IVDREF1D = 93
 # Temporal noise: TN
-THN_matA = 1.037
-THN_matB = 0.9707
-THN_matC = 1.006
-THN_matD = 0.9992
+THN_matA = 0.9723 
+THN_matB = 0.9145
+THN_matC = 0.9700
+THN_matD = 0.9181
 # Fixed pattern noise: FPN
-FPN_matA = 0.4316
-FPN_matB = 0.4338
-FPN_matC = 0.484
-FPN_matD = 0.5028
+FPN_matA = 0.4271
+FPN_matB = 0.4548
+FPN_matC = 0.4744
+FPN_matD = 0.496
 # Offset
-OFF_matA = 0.2222
-OFF_matB = 0.2318
-OFF_matC = -0.1147
-OFF_matD = 0.4469
+OFF_matA = 0.5116
+OFF_matB = 0.2303
+OFF_matC = 0.529
+OFF_matD = 0.6422
 # columns to disable, if as a list 
 DIS_col = []
 
