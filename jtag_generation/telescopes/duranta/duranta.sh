@@ -8,7 +8,7 @@ declare -a array=("chip2b" "chip5b" "chip107" "chip4b" "chip7b" "chip3b")
 ###########################################
 TELESCOPE_PATH=$PWD
 SENSOR_PATH=$PWD'/../../sensors/' 
-SCRIPT_PATH=$PWD'/../../'
+SCRIPT_PATH=$PWD'/../../scripts/'
 
 rm jtag_$TELESCOPE/*.txt
 
