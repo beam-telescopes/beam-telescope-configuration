@@ -1,7 +1,7 @@
 #!/bin/bash
 # INPUTs
 # which telescope
-TELESCOPE='duranta'
+TELESCOPE='duranta_8b'
 # which sensors, at which positions
 declare -a array=("chip2b" "chip5b" "chip107" "chip8b" "chip7b" "chip3b")
 

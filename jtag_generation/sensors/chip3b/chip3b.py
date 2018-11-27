@@ -27,7 +27,7 @@ OFF_matB = 0.2727
 OFF_matC = 0.4043
 OFF_matD = 0.7676
 # columns to disable, if as a list 
-DIS_col = []
+DIS_col = [1003]
 
 ######################################
 # Generate using Jtag class
