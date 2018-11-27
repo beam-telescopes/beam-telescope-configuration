@@ -1,34 +1,34 @@
 ######################################
-# Last update: 25 August 2016, Jan Dreyling-Eschweiler
+# Last update: 27 November 2018, Jan Dreyling-Eschweiler
 
 ######################################
 # Sensor Name
 sensor_name = "68"
 
 # Middlepoints in DAC
-IVDREF2  = 100 
-IVDREF1A = 208
-IVDREF1B = 160
-IVDREF1C = 119
+IVDREF2  = 100
+IVDREF1A = 148
+IVDREF1B = 146
+IVDREF1C = 171
 IVDREF1D = 163
 
 # Thermal noise: TN
-THN_matA = 1.053
-THN_matB = 1.016
-THN_matC = 1.055
-THN_matD = 0.9633
+THN_matA = 1.033
+THN_matB = 0.9657
+THN_matC = 0.9153
+THN_matD = 0.8995
 
 # Fixed pattern noise: FPN
-FPN_matA = 0.3524
-FPN_matB = 0.3566
-FPN_matC = 0.6797
-FPN_matD = 0.5559
+FPN_matA = 0.5624
+FPN_matB = 0.5109
+FPN_matC = 0.5419
+FPN_matD = 0.551
 
 # Offset
-OFF_matA = 0.3375
-OFF_matB = 0.5 #4.988
-OFF_matC = 0.3816
-OFF_matD = 0.5665
+OFF_matA = -0.1598
+OFF_matB = 0.0928
+OFF_matC = 0.07012
+OFF_matD = -0.4875
 
 # Disable columns/discriminators
 DIS_col = []

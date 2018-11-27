@@ -1,37 +1,37 @@
 ######################################
-# Last update: 25 August 2016, Jan Dreyling-Eschweiler
+# Last update: 27 November 2018, Jan Dreyling-Eschweiler
 
 ######################################
 # Sensor Name
 sensor_name = "104"
 
 # Middlepoints in DAC
-IVDREF2  = 100 
-IVDREF1A = 96
-IVDREF1B = 93
-IVDREF1C = 133
-IVDREF1D = 210
+IVDREF2  = 100
+IVDREF1A = 65
+IVDREF1B = 80
+IVDREF1C = 135
+IVDREF1D = 145
 
 # Thermal noise: TN
-THN_matA = 0.9604
-THN_matB = 0.9365
-THN_matC = 0.9516
-THN_matD = 0.8936
+THN_matA = 0.9318
+THN_matB = 0.8521
+THN_matC = 0.8079
+THN_matD = 0.8679
 
 # Fixed pattern noise: FPN
-FPN_matA = 0.5125
-FPN_matB = 0.4387
-FPN_matC = 0.6004
-FPN_matD = 0.3796
+FPN_matA = 0.4042
+FPN_matB = 0.4578
+FPN_matC = 0.5161
+FPN_matD = 0.5197
 
 # Offset
-OFF_matA = 0.0005638
-OFF_matB = -0.06264
-OFF_matC = 0.1124
-OFF_matD = 0.2176
+OFF_matA = -0.4058
+OFF_matB = -0.0084
+OFF_matC = 0.2322
+OFF_matD = 0.1061
 
 # Disable columns/discriminators
-DIS_col = [693]
+DIS_col = []
 
 ######################################
 # Generate using Jtag class

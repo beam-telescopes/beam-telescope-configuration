@@ -7,25 +7,25 @@ sensor_name = "66"
 
 # Middlepoints in DAC
 IVDREF2  = 100
-IVDREF1A = 127
-IVDREF1B = 115
-IVDREF1C = 132
-IVDREF1D = 94
+IVDREF1A = 190
+IVDREF1B = 160
+IVDREF1C = 201
+IVDREF1D = 127
 # Temporal noise: TN
-THN_matA = 1.037
-THN_matB = 0.9707
-THN_matC = 1.006
-THN_matD = 0.9992
+THN_matA = 1.012
+THN_matB = 0.9836
+THN_matC = 1.055
+THN_matD = 0.9287
 # Fixed pattern noise: FPN
-FPN_matA = 0.4316
-FPN_matB = 0.4338
-FPN_matC = 0.484
-FPN_matD = 0.5028
+FPN_matA = 0.3518
+FPN_matB = 0.4334
+FPN_matC = 0.6135
+FPN_matD = 0.5641
 # Offset
-OFF_matA = 0.2222
-OFF_matB = 0.2318
-OFF_matC = -0.1147
-OFF_matD = 0.4469
+OFF_matA = 0.1516
+OFF_matB = 0.3196
+OFF_matC = 0.0207
+OFF_matD = 0.1993
 # columns to disable, if as a list 
 DIS_col = []
 
