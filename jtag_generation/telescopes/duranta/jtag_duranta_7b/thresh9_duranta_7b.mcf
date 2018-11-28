@@ -1,0 +1,9 @@
+#JTAG_MS MASTER CONFIGURATION FILE 11-28-2018
+6 ; number of devices
+C:\opt\jtag_duranta_7b\pos0_chip2b_thresh9.txt    ; (0)
+C:\opt\jtag_duranta_7b\pos1_chip5b_thresh9.txt    ; (1)
+C:\opt\jtag_duranta_7b\pos2_chip107_thresh9.txt    ; (2)
+C:\opt\jtag_duranta_7b\pos3_chip7b_thresh9.txt    ; (3)
+C:\opt\jtag_duranta_7b\pos4_chip4b_thresh9.txt    ; (4)
+C:\opt\jtag_duranta_7b\pos5_chip3b_thresh9.txt    ; (5)
+#END OF JTAG_MS MASTER CONFIGURATION FILE
